@@ -1,6 +1,81 @@
-body {
-    background-color: rgb(83, 27, 27);
+* {
+    margin: 0;
+    padding: 0;
 }
+
 .e12 {
     color: #cac4c4;
+}
+
+.cap {
+    background: #E5DBE7;
+    padding-bottom: 30px;
+}
+
+/* О нас */
+.about_us {
+    display: inline-block;
+    transform: translate(20em, 1em);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 47px;
+    height: 20px;
+    color: #5C2F5E;
+}
+
+/* Каталог товаров */
+.catalog {
+    display: inline-block;
+    transform: translate(21em, 1em);
+    width: 137px;
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5C2F5E;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Оплата и доставка */
+.payment {
+    display: inline-block;
+    transform: translate(21em, 1em);
+    width: 155px;
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5C2F5E;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+/* +7 900 000 00 00 */
+.telephone {
+    display: inline-block;
+    transform: translate(40em, 1.3em);
+    width: 106px;
+    height: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(92, 47, 94, 0.5);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
