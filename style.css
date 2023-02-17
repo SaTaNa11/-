@@ -9,13 +9,12 @@
 
 .cap {
     background: #E5DBE7;
-    padding-bottom: 30px;
+    height: 100px;
+    width: 1000px;
 }
 
 /* О нас */
-.about_us {
-    display: inline-block;
-    transform: translate(20em, 1em);
+.about {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -27,12 +26,15 @@
     width: 47px;
     height: 20px;
     color: #5C2F5E;
+    display: inline-block;
+    transform: translate(20em, 2em);
+    
 }
 
 /* Каталог товаров */
 .catalog {
     display: inline-block;
-    transform: translate(21em, 1em);
+    transform: translate(21em, 2em);
     width: 137px;
     height: 20px;
     font-family: 'Montserrat';
@@ -49,10 +51,10 @@
 /* Оплата и доставка */
 .payment {
     display: inline-block;
-    transform: translate(21em, 1em);
+    transform: translate(21em, 2em);
     width: 155px;
     height: 20px;
-    font-family: 'Montserrat';
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -66,7 +68,7 @@
 /* +7 900 000 00 00 */
 .telephone {
     display: inline-block;
-    transform: translate(40em, 1.3em);
+    transform: translate(40em, 2.3em);
     width: 106px;
     height: 15px;
     font-family: 'Montserrat';
