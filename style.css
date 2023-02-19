@@ -79,7 +79,7 @@
     flex-grow: 0;
 }
 
-/*Поиск*/
+/*Квадрат поиск*/
 .rectangle {
     width: 930px;
     height: 34px;
@@ -96,7 +96,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    transform: translate(-17em, 5.5em);
+    transform: translate(25em, 5.5em);
     background: url(.png);
     border-radius: 12px;
 }
