@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="script.js">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+        <title>Сладость в каждом кармане</title>
+    </head>
+    <body>
+        <div class="cap"> <!--Шапка-->
+            <img src="Изображения\Rectangle 2.png" class="logo">
+            <p class="about"> О нас</p>
+            <p class="catalog">Каталог товаров</p>
+            <p class="payment">Оплата и доставка</p>
+            <p class="telephone">+7 915 885 95 71</p>
+        </div>
+        <main>
+            <p class="popularsweets">Популярые сладости</p>
+            <p class="produst1"></p>
+            <div class="product1">
+                <img src="https://ligaopt.com/wp-content/uploads/2019/04/twix-minis-min.jpg">
+                <div class="product-list">
+                  <h3>Конфеты твикс</h3>
+                    <span class="price">₽ 200</span>
+                    <span class="price2">₽ 200</span>
+                    <a href="" class="button">Купить</a>
+                </div>
+              </div>
+            
+        </main>
+    </body>
+</html>
