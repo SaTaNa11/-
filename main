@@ -20,17 +20,172 @@
         </div>
         <main>
             <p class="popularsweets">Популярые сладости</p>
+            <!-- Твикс -->
             <p class="produst1"></p>
             <div class="product1">
                 <img src="https://ligaopt.com/wp-content/uploads/2019/04/twix-minis-min.jpg">
                 <div class="product-list">
-                  <h3>Конфеты твикс</h3>
-                    <span class="price">₽ 200</span>
+                  <h3>Конфеты твикс (шт)</h3>
+                    <span class="price">₽ 50</span>
+                    <span class="price2">₽ 100</span>
+                    <a href="" class="button">Купить</a>
+                </div>
+              </div>
+              <!-- Японские моти -->
+              <p class="produst2"></p>
+            <div class="product2">
+                <img src="https://fuji-san.ru/wa-data/public/photos/59/04/459/459.970.jpg">
+                <div class="product-list">
+                  <h3>Японские моти (шт)</h3>
+                    <span class="price">₽ 60</span>
+                    <span class="price2">₽ 150</span>
+                    <a href="" class="button">Купить</a>
+                </div>
+              </div>
+            <!-- Японские окаси -->
+            <p class="produst3"></p>
+            <div class="product3">
+                <img src="https://thumb.tildacdn.com/tild3130-6432-4535-b332-306565363461/-/resize/784x/-/format/webp/kanazawa_sakakura_3.jpg">
+                <div class="product-list">
+                  <h3>Японские окаси (шт)</h3>
+                    <span class="price">₽ 70</span>
+                    <span class="price2">₽ 150</span>
+                    <a href="" class="button">Купить</a>
+                </div>
+              </div>
+               <!-- Японские данго -->
+               <p class="produst4"></p>
+            <div class="product4">
+                <img src="https://www.honestfoodtalks.com/wp-content/uploads/2022/04/Sticks-of-hanami-dango.jpg">
+                <div class="product-list">
+                  <h3>Японские данго (шт)</h3>
+                    <span class="price">₽ 100</span>
                     <span class="price2">₽ 200</span>
                     <a href="" class="button">Купить</a>
                 </div>
               </div>
-            
+              <!-- Конфеты с дыней Юбари-->
+              <p class="produst5"></p>
+              <div class="product5">
+                  <img src="https://fuji-san.ru/wa-data/public/shop/products/49/87/8749/images/11493/11493.345x0.jpg">
+                  <div class="product-list">
+                    <h3>Конфеты с дыней Юбари</h3>
+                      <span class="price">₽ 99</span>
+                      <span class="price2">₽ 179</span>
+                      <a href="" class="button">Купить</a>
+                  </div>
+                </div>
+                <!-- Желе конняку YUKIGUNI-->
+                <p class="produst6"></p>
+                <div class="product6">
+                    <img src="https://fuji-san.ru/wa-data/public/shop/products/61/89/8961/images/11811/11811.345x0.jpg">
+                    <div class="product-list">
+                      <h3>Желе конняку YUKIGUNI</h3>
+                        <span class="price">₽ 99</span>
+                        <span class="price2">₽ 199</span>
+                        <a href="" class="button">Купить</a>
+                    </div>
+                  </div>
+                  <!-- Леденцы из маринованной сливы-->
+                  <p class="produst7"></p>
+                  <div class="product7">
+                      <img src="https://fuji-san.ru/wa-data/public/shop/products/07/97/9707/images/13257/13257.345x0.jpg">
+                      <div class="product-list">
+                        <h3>Леденцы из маринованной сливы</h3>
+                          <span class="price">₽ 120</span>
+                          <span class="price2">₽ 250</span>
+                          <a href="" class="button">Купить</a>
+                      </div>
+                    </div>
+                    <!-- Японское леденцовое ассорти-->
+                    <p class="produst8"></p>
+                  <div class="product8">
+                      <img src="https://fuji-san.ru/wa-data/public/shop/products/60/97/9760/images/13341/13341.345x0.png">
+                      <div class="product-list">
+                        <h3>Японское леденцовое ассорти</h3>
+                          <span class="price">₽ 70</span>
+                          <span class="price2">₽ 130</span>
+                          <a href="" class="button">Купить</a>
+                      </div>
+                    </div>
+                    <!-- Шоколадный батончик-->
+                    <p class="produst9"></p>
+                    <div class="product9">
+                        <img src="https://fuji-san.ru/wa-data/public/shop/products/69/97/9769/images/13350/13350.345x0.jpg">
+                        <div class="product-list">
+                          <h3>Шоколадный батончик</h3>
+                            <span class="price">₽ 30</span>
+                            <span class="price2">₽ 70</span>
+                            <a href="" class="button">Купить</a>
+                        </div>
+                      </div>
+                      <!-- Дынный желе-щербет-->
+                      <p class="produst10"></p>
+                      <div class="product10">
+                          <img src="https://fuji-san.ru/wa-data/public/shop/products/74/97/9774/images/13356/13356.345x0.jpg">
+                          <div class="product-list">
+                            <h3>Дынный желе-щербет</h3>
+                              <span class="price">₽ 40</span>
+                              <span class="price2">₽ 90</span>
+                              <a href="" class="button">Купить</a>
+                          </div>
+                        </div>
+                        <!-- Кислые жевательные конфеты-->
+                        <p class="produst11"></p>
+                        <div class="product11">
+                            <img src="https://fuji-san.ru/wa-data/public/shop/products/22/98/9822/images/13424/13424.345x0.png">
+                            <div class="product-list">
+                              <h3>Кислые жевательные конфеты</h3>
+                                <span class="price">₽ 69</span>
+                                <span class="price2">₽ 90</span>
+                                <a href="" class="button">Купить</a>
+                            </div>
+                          </div>
+                       <!-- Тайаки-->
+                       <p class="produst12"></p>
+                       <div class="product12">
+                           <img src="https://fuji-san.ru/wa-data/public/shop/products/51/98/9851/images/13473/13473.345x0.jpg">
+                           <div class="product-list">
+                             <h3>Тайаки</h3>
+                               <span class="price">₽ 50</span>
+                               <span class="price2">₽ 100</span>
+                               <a href="" class="button">Купить</a>
+                           </div>
+                         </div>
+                         <!-- Манговое желе-->
+                         <p class="produst13"></p>
+                         <div class="product13">
+                             <img src="https://fuji-san.ru/wa-data/public/shop/products/30/99/9930/images/13583/13583.345x0.JPG">
+                             <div class="product-list">
+                               <h3>Манговое желе</h3>
+                                 <span class="price">₽ 80</span>
+                                 <span class="price2">₽ 139</span>
+                                 <a href="" class="button">Купить</a>
+                             </div>
+                           </div>
+                           <!-- Рисовые снеки-->
+                           <p class="produst14"></p>
+                           <div class="product14">
+                               <img src="https://fuji-san.ru/wa-data/public/shop/products/58/99/9958/images/13614/13614.345x0.jpg">
+                               <div class="product-list">
+                                 <h3>Рисовые снеки</h3>
+                                   <span class="price">₽ 89</span>
+                                   <span class="price2">₽ 169</span>
+                                   <a href="" class="button">Купить</a>
+                               </div>
+                             </div>
+                             <!-- Съедобный бокс для детей-->
+                             <p class="produst15"></p>
+                             <div class="product15">
+                                 <img src="https://fuji-san.ru/wa-data/public/shop/products/32/97/9732/images/13705/13705.345x0.jpg">
+                                 <div class="product-list">
+                                   <h3>Съедобный бокс для детей</h3>
+                                     <span class="price">₽ 350</span>
+                                     <span class="price2">₽ 500</span>
+                                     <a href="" class="button">Купить</a>
+                                 </div>
+                               </div>
+
         </main>
     </body>
 </html>
