@@ -9,62 +9,146 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header center">
-        <div class="header-wrapper">
-           <img src="Изображения/logo.svg" alt="logo" class="header-logo"> 
-           <div>
-              <div class="header-container">
-                 <div class="header-container-nav">
-                    <nav class="header-nav">
-                    <a href="#" class="header-nav-element">О нас</a>
-                    <a href="#" class="header-nav-element">Каталог товаров</a>
-                    <a href="#" class="header-nav-element">Оплата и доставка</a>
-                    <nav>
-                 </div>
-                 <p class="header-phoneNumber">+7 900 000 00 00</p>
-              </div>
-              <div class="header-container">
-                 <form action="" class="header-form">
-                    <input type="search" placeholder="Найти" class="header-form-searchBar">
-                    <button type="submit" class="header-form-button"><img src="Изображения/search.svg" class="search" alt="fjfj"></button>
-                 </form>
-                 <div class="header-container-links">
-                 <a href="#"><img src="Изображения/shop_cart.svg" class="shop_cart" alt="shopping cart"></a>
-                 <a href="#"><img src="Изображения/customer.svg" class="customer" alt="customer"></a>
-                 </div>
-              </div>
-           </div>
-        </div>
-     </header>
-     <main>
-      <h2 class="center">Ваша корзина, 2 товара</h2>
+   <header class="header center">
+      <div class="header-wrapper">
+         <img src="Изображения/logo.svg" alt="logo" class="header-logo"> 
+         <div>
+            <div class="header-container">
+               <div class="header-container-nav">
+                  <nav class="header-nav">
+                  <a href="#" class="header-nav-element">О нас</a>
+                  <a href="#" class="header-nav-element">Каталог товаров</a>
+                  <a href="#" class="header-nav-element">Оплата и доставка</a>
+                  <nav>
+               </div>
+               <p class="header-phoneNumber">+7 900 000 00 00</p>
+            </div>
+            <div class="header-container">
+               <form action="" class="header-form">
+                  <input type="search" placeholder="Найти" class="header-form-searchBar">
+                  <button type="submit" class="header-form-button"><img src="Изображения/search.svg" class="search" alt="fjfj"></button>
+               </form>
+               <div class="header-container-links">
+                  <a href="#"><img src="Изображения/shop_cart.svg" class="shop_cart" alt="shopping cart"></a>
+                  <a href="#"><img src="Изображения/customer.svg" class="customer" alt="customer"></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <main>
+      <!--Your Basket-->
       <section class="basket center">
-         <ul class="basket-list">
-            <li class="basket-item">
-               <div class="basket-wrap">
-                  <div class="basket-item-img-container">
-                     <img src="" alt="">
+         <div class="main-title">
+            <h2 class="main-title-text">Ваша корзина,</h2>
+            <span class="main-title-number">2 товара</span>
+         </div>
+         <div class="basket-wrapper">
+         <div class="basket-wrap">
+            <ul class="basket-list">
+               <!--First element -->
+               <li class="basket-item">
+                  <div class="basket-item-choice">
+                     <input type="radio" class="basket-item-radioButton" onMouseDown="this.isChecked=this.checked" onClick="this.checked=!this.isChecked">
                   </div>
-                  <div class="backet-item-content">
-                     <h2 class="basket-item-name">Название товара</h2>
-                     <h3 class="basket-item-arct">Артикул: 0000</h3>
-                     <div class="basket-item-numberOf">
-                        <button class="basket-item-min"><img src="Изображения/minus.svg" alt=""></button>
-                        <input type="text" class="basket-item-productCount" value="1">
-                        <button class="basket-item-plus"><img src="Изображения/plus.svg" alt=""></button>
+                  <div class="basket-item-wrap">
+                     <div class="basket-item-img-container">
+                        <img src="" alt="">
                      </div>
-                     <div class="basket-element-price">
-                        <span>349 Р</span>
-                        <span>659 Р</span>
+                     <div class="backet-item-content">
+                        <div>
+                           <h2 class="basket-item-name">Название товара</h2>
+                           <h3 class="basket-item-arct">Артикул: 0000</h3>
+                           <div class="basket-item-numberOf">
+                              <button class="basket-item-min"><img src="Изображения/minus.svg" alt=""></button>
+                              <input type="text" class="basket-item-productCount" value="1">
+                              <button class="basket-item-plus"><img src="Изображения/plus.svg" alt=""></button>
+                           </div>
+                        </div>
                      </div>
-                     <div>
-                        <button class="basket-element-delete"><img class="delete-img" src="" alt=""></button>
+                     <div class="baket-item-wrapper">
+                        <div class="basket-item-price">
+                           <span class="item-price-new"><b>349 &#x20bd</b></span>
+                           <span class="item-price-old"><b>659 &#x20bd</b></span>
+                        </div>
+                        <div>
+                           <button class="basket-item-delete"><img class="delete-img" src="Изображения/delete.svg" alt=""></button>
+                        </div>
                      </div>
+                  </div>
+               </li>
+               <!--Second element -->
+               <li class="basket-item">
+                  <div class="basket-item-choice">
+                     <input type="radio" class="basket-item-radioButton" onMouseDown="this.isChecked=this.checked" onClick="this.checked=!this.isChecked">
+                  </div>
+                  <div class="basket-item-wrap">
+                     <div class="basket-item-img-container">
+                        <img src="" alt="">
+                     </div>
+                     <div class="backet-item-content">
+                        <div>
+                           <h2 class="basket-item-name">Название товара</h2>
+                           <h3 class="basket-item-arct">Артикул: 0000</h3>
+                           <div class="basket-item-numberOf">
+                              <button class="basket-item-min"><img src="Изображения/minus.svg" alt=""></button>
+                              <input type="text" class="basket-item-productCount" value="1">
+                              <button class="basket-item-plus"><img src="Изображения/plus.svg" alt=""></button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="baket-item-wrapper">
+                        <div class="basket-item-price">
+                           <span class="item-price-new"><b>349 &#x20bd</b></span>
+                           <span class="item-price-old"><b>659 &#x20bd</b></span>
+                        </div>
+                        <div>
+                           <button class="basket-item-delete"><img class="delete-img" src="Изображения/delete.svg" alt=""></button>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+            </ul>
+         </div>
+         <div class="basket-order">
+            <div class="basket-order-box">
+               <h3 class="basket-order-title">Ваш заказ</h3>
+               <div class="basket-order-content">
+                  <div class="basket-order-price">
+                     <span class="basket-order-text">Товары, 2</span>
+                     <span class="basket-order-value">698 &#x20bd</span>
+                  </div>
+                  <div class="basket-order-sale">
+                     <span class="basket-order-text">Скидка</span>
+                     <span class="basket-order-value">-620 &#x20bd</span>
+                  </div>
+                  <div class="basket-order-final">
+                     <h3>Итого</h3>
+                     <span class="basket-order-value">698 &#x20bd</span>
                   </div>
                </div>
-            </li>
-         </ul>
+            </div>
+            <div class="basket-button-wrap">
+               <button class="basket-button">Оформить</button>
+            </div>
+         </div>
       </section>
-     </main>
+      <!--Popular Products-->
+      <section class="recomed center">
+         <h2 class="recomend-title">
+            Популярные товары
+         </h2>
+         <div class="recomend-wrap">
+         <div class="recomend-card">
+            <img src="" alt="">
+         </div>
+         <span class="recomend-name">Название товара кратко</span>
+         <div class="recomend-price">
+         <span class="recomend-price-after">Цена &#x20bd</span>
+         <span class="recomed-price-before">Цена &#x20bd</span>
+          </div>
+         </div>
+      </section>
+   </main>
 </body>
 </html>
