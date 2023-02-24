@@ -121,7 +121,7 @@ margin-left: auto;
     margin-right: auto;
 
 }
-/* Твикс */
+/* Шоколадные конфеты брауни */
 .product1
 {
     box-sizing: border-box;
@@ -143,7 +143,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 display: inline-block;
- transform: translate(13em, 3.5em);
+ transform: translate(13em, 10em);
 
  }
  .product1:hover {
@@ -228,7 +228,7 @@ flex-grow: 0;
     background: #F8CFD2;
  }
 
- /* Японские моти */
+ /* Мягкий клубничный шоколад */
  .product2
 {
     box-sizing: border-box;
@@ -250,7 +250,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 display: inline-block;
- transform: translate(13em, 5.5em);
+ transform: translate(13em, 10.5em);
 
  }
   .product2:hover {
@@ -334,7 +334,7 @@ display: inline-block;
   .product-item:hover .button {
      background: #F8CFD2;
   }
-  /* Японские окаси */
+  /* Клубничный покки */
   .product3
 {
     box-sizing: border-box;
@@ -356,7 +356,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 display: inline-block;
- transform: translate(13em, 8.5em);
+ transform: translate(13em, 11em);
 
  }
   .product3:hover {
@@ -440,7 +440,7 @@ display: inline-block;
   .product-item:hover .button {
      background: #F8CFD2;
   }
-  /* Японские данго */
+  /* Воздушные рисовые крекеры бурборн с майонезом */
   .product4
   {
       box-sizing: border-box;
@@ -1712,3 +1712,86 @@ display: inline-block;
                .product-item:hover .button {
                   background: #F8CFD2;
                }
+                  /* Кнопка показать еще */
+                .button1
+                {
+                  width: 109px;
+                  height: 22px;
+                  
+                  font-family: 'Open Sans';
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 22px;
+                  /* identical to box height */
+                  flex: none;
+                  order: 0;
+                 flex-grow: 0;
+                  
+                  color: #40311C;
+                  display: inline-block;
+                   transform: translate(43em, -210em);
+                }
+                    /* Отзывы */
+                    
+.reviews1
+{
+    text-align: center;
+    width: 307px;
+    height: 32px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #40311C;
+    flex: none;
+order: 0;
+flex-grow: 0;
+margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    transform: translate(19.5em, -134em);
+
+}
+.fon1
+{
+   position: absolute;
+   width: 500px;
+   height: 509.44px;
+   left: 2px;
+   top: 2007px;
+   
+   background: url(image.png);
+   
+   background: #E5DBE7;
+   
+}    
+.fon2
+{
+   position: absolute;
+   width: 500px;
+   height: 509.44px;
+   left: 469px;
+   top: 2008px;
+   
+   background: url(image.png);
+   
+   background: #E5DBE7;
+   
+}    
+.fon3
+{
+   position: absolute;
+   width: 500px;
+   height: 509.44px;
+   left: 941px;
+   top: 2010.34px;
+   
+   background: url(image.png);
+   
+   background: #E5DBE7;
+   
+} 
