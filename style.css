@@ -1,22 +1,25 @@
-* {
+body {
+    position: relative;
+    width: 1440px;
+    height: 3743px;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    max-width: 1440px;
-    font-family: 'Montserrat', sans-serif;
+}
+    
+*:before,
+*:after {
+    box-sizing: border-box;
 }
 
-body {
-    max-width: 1440px;
-}
-
-.e12 {
-    color: #cac4c4;
+.container {
+    margin: 0 auto
 }
 
 .cap {
     background: #E5DBE7;
-    height: 800px;
-    min-width: 1500px;
+    height: 700px;
+    min-width: 1440px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -127,30 +130,40 @@ body {
     top: 195px;
 }
 
-/*Ветка сакуры */
+/*ветка сакуры слево*/
 
 .sakyra {
     position: absolute;
     width: 320px;
-    left: -26px;
-    top: 531px;
+    left: -0.4em;
+    top: 515px;
     background: url(image.png);
-    transform: rotate(14.89deg);
+    transform: rotate(3deg);
 }
+
+/*ветка сакуры справо*/
 
 .sakyra2 {
     position: absolute;
     width: 327.26px;
-
-    top: 876.92px;
+    left: 70.4em;
+    top: 608px;
     background: url(image.png);
-    transform: rotate(-154.64deg);
-    position: absolute;
-    top: 900px;
-    right: -5em;
+    transform: rotate(-172deg);
 }
 
+/*изгиб где ветка сакуры слева*/
 
+.polygon1 {
+    position: absolute;
+    left: 0em;
+    top: 535px;
+}
 
+/*изгиб где ветка сакуры права*/
 
-
+.polygon2 {
+    position: absolute;
+    left: 53.95em;
+    top: 700px;
+}

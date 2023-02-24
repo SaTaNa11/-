@@ -1,0 +1,146 @@
+@media only screen and (max-width: 1920px){
+    .container {
+        margin: 0 auto
+    }
+    
+    .cap {
+        background: #E5DBE7;
+        height: 700px;
+        min-width: 1920px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    /* О нас */
+    .about {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        width: 47px;
+        height: 20px;
+        color: #5C2F5E;
+        display: inline-block;
+        transform: translate(40em, 2em);
+        
+    }
+    
+    /* Каталог товаров */
+    .catalog {
+        display: inline-block;
+        transform: translate(42em, 2em);
+        width: 137px;
+        height: 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5C2F5E;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    
+    /* Оплата и доставка */
+    .payment {
+        display: inline-block;
+        transform: translate(44em, 2em);
+        width: 155px;
+        height: 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5C2F5E;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+    
+    /* +7 900 000 00 00 */
+    .telephone {
+        display: inline-block;
+        transform: translate(75.5em, 2.5em);
+        width: 106px;
+        height: 15px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: rgba(92, 47, 94, 0.5);
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    
+    /* Логотип в шапке (1 изображение) */
+    .logo {
+        width: 130px; 
+        height: 71px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        transform: translate(25em, 5em);
+        background: url(.png);
+        border-radius: 12px;
+    }
+    
+        /*Текст шапки*/
+    
+    .text-caps {
+        position: absolute;
+        width: 643px;
+        height: 130px;
+        left: 550px;
+        top: 318px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 65px;
+        color: #5C2F5E;
+    
+    }
+    
+    /*Кот на главной странице*/
+    
+    .cat {
+        position: absolute;
+        width: 440px;
+        height: 423px;
+        left: 1100px;
+        top: 195px;
+    }
+    
+    .sakyra {
+        position: absolute;
+        width: 320px;
+        left: -0.4em;
+        top: 515px;
+        background: url(image.png);
+        transform: rotate(3deg);
+    }
+    
+    .sakyra2 {
+        position: absolute;
+        width: 327.26px;
+        left: 100em;
+        top: 608px;
+        background: url(image.png);
+        transform: rotate(-172deg);
+    }
+    
+    .polygon1 {
+        position: absolute;
+        left: 0em;
+        top: 535px;
+    }
+    
+    .polygon2 {
+        position: absolute;
+        left: 83.9em;
+        top: 700px;
+    }
+}
