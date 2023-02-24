@@ -47,7 +47,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 display: inline-block;
- transform: translate(13em, 10em);
+ transform: translate(3em, 5em);
 
  }
  .product1:hover {
@@ -154,7 +154,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 display: inline-block;
- transform: translate(13em, 10.5em);
+ transform: translate(3em, 6.5em);
 
  }
   .product2:hover {
@@ -260,7 +260,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 display: inline-block;
- transform: translate(13em, 11em);
+ transform: translate(3em, 7.5em);
 
  }
   .product3:hover {
@@ -366,7 +366,7 @@ display: inline-block;
   order: 0;
   flex-grow: 0;
   display: inline-block;
-   transform: translate(33em, -54em);
+   transform: translate(20em, -58.5em);
   
    }
     .product4:hover {
@@ -472,7 +472,7 @@ display: inline-block;
     order: 0;
     flex-grow: 0;
     display: inline-block;
-     transform: translate(33em, -53em);
+     transform: translate(20em, -57em);
     
      }
       .product5:hover {
@@ -578,7 +578,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 display: inline-block;
- transform: translate(33em, -48em);
+ transform: translate(20em, -54.5em);
 
  }
   .product6:hover {
@@ -684,7 +684,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 display: inline-block;
- transform: translate(53em, -110.5em);
+ transform: translate(39em, -119.3em);
 
  }
   .product7:hover {
@@ -790,7 +790,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 display: inline-block;
- transform: translate(53em, -110em);
+ transform: translate(39em, -117.8em);
 
  }
   .product8:hover {
@@ -896,7 +896,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 display: inline-block;
- transform: translate(53em, -107em);
+ transform: translate(39em, -115.4em);
 
  }
   .product9:hover {
@@ -1002,7 +1002,7 @@ display: inline-block;
   order: 0;
   flex-grow: 0;
   display: inline-block;
-   transform: translate(73em, -168em);
+   transform: translate(58em, -180.2em);
   
    }
     .product10:hover {
@@ -1108,7 +1108,7 @@ display: inline-block;
      order: 0;
      flex-grow: 0;
      display: inline-block;
-      transform: translate(73em, -167.5em);
+      transform: translate(58em, -178.7em);
      
       }
        .product11:hover {
@@ -1214,7 +1214,7 @@ display: inline-block;
        order: 0;
        flex-grow: 0;
        display: inline-block;
-        transform: translate(73em, -164.5em);
+        transform: translate(58em, -175em);
        
         }
          .product12:hover {
@@ -1320,7 +1320,7 @@ display: inline-block;
          order: 0;
          flex-grow: 0;
          display: inline-block;
-          transform: translate(93em, -221.7em);
+          transform: translate(75em, -234.4em);
          
           }
            .product13:hover {
@@ -1426,7 +1426,7 @@ display: inline-block;
            order: 0;
            flex-grow: 0;
            display: inline-block;
-            transform: translate(93em, -220em);
+            transform: translate(75em, -231.5em);
            
             }
              .product14:hover {
@@ -1532,7 +1532,7 @@ display: inline-block;
              order: 0;
              flex-grow: 0;
              display: inline-block;
-              transform: translate(93em, -217em);
+              transform: translate(75em, -229em);
              
               }
                .product15:hover {
@@ -1713,3 +1713,81 @@ margin-left: auto;
    left: 56.19em;
    top: 2001px;
 }
+.fon4
+{
+   position: absolute;
+   width: 500px;
+   height: 509.44px;
+   left: -2px;
+   top: 2500.61px;
+   
+   background: url(image.png);
+   
+   background: #E5DBE7;
+   
+} 
+.fon5
+{
+   position: absolute;
+   width: 500px;
+   height: 509.44px;
+   left: 465px;
+   top: 2501.73px;
+   
+   background: url(image.png);
+   
+   background: #E5DBE7;
+   
+} 
+.fon6
+{
+   position: absolute;
+   width: 500px;
+   height: 509.44px;
+   left: 937px;
+   top: 2503.95px;
+   
+   background: url(image.png);
+
+   background: #E5DBE7;
+   
+} 
+.fon7
+{
+   position: absolute;
+   width: 500px;
+   height: 509.44px;
+   left: 2px;
+   top: 2820.8px;
+   
+   background: url(image.png);
+   
+   background: #E5DBE7;
+   
+} 
+.fon8
+{
+   position: absolute;
+   width: 500px;
+   height: 509.44px;
+   left: 502px;
+   top: 2820.8px;
+   
+   background: url(image.png);
+   
+   background: #E5DBE7;
+   
+} 
+.fon9
+{
+   position: absolute;
+width: 500px;
+height: 509.44px;
+left: 942px;
+top: 2820.8px;
+
+background: url(image.png);
+   
+   background: #E5DBE7;
+   
+} 
