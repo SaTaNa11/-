@@ -366,7 +366,7 @@ display: inline-block;
   order: 0;
   flex-grow: 0;
   display: inline-block;
-   transform: translate(33em, -53em);
+   transform: translate(33em, -54em);
   
    }
     .product4:hover {
@@ -472,7 +472,7 @@ display: inline-block;
     order: 0;
     flex-grow: 0;
     display: inline-block;
-     transform: translate(33em, -51em);
+     transform: translate(33em, -53em);
     
      }
       .product5:hover {
@@ -1679,7 +1679,7 @@ margin-left: auto;
    width: 500px;
    height: 509.44px;
    left: 469px;
-   top: 2008px;
+   top: 2007px;
    
    background: url(image.png);
    
@@ -1692,10 +1692,24 @@ margin-left: auto;
    width: 500px;
    height: 509.44px;
    left: 941px;
-   top: 2010.34px;
+   top: 2007px;
    
    background: url(image.png);
    
    background: #E5DBE7;
    
 } 
+
+.polygon4 {
+   position: absolute;
+   width: 541.65px;
+   left: 0em;
+   top: 1867px;
+}
+
+.polygon3 {
+   position: absolute;
+   width: 541.65px;
+   left: 56.19em;
+   top: 2001px;
+}
