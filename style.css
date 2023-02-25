@@ -9,6 +9,8 @@ body {
 *:before,
 *:after {
     box-sizing: border-box;
+    width: 1440px;
+    height: 3743px;
 }
 
 .container {
@@ -35,14 +37,14 @@ body {
     height: 20px;
     color: #5C2F5E;
     display: inline-block;
-    transform: translate(25em, 2em);
+    transform: translate(23em, 2em);
     
 }
 
 /* Каталог товаров */
 .catalog {
     display: inline-block;
-    transform: translate(27em, 2em);
+    transform: translate(25em, 2em);
     width: 137px;
     height: 20px;
     font-style: normal;
@@ -58,7 +60,7 @@ body {
 /* Оплата и доставка */
 .payment {
     display: inline-block;
-    transform: translate(29em, 2em);
+    transform: translate(27em, 2em);
     width: 155px;
     height: 20px;
     font-style: normal;
@@ -74,7 +76,7 @@ body {
 /* +7 900 000 00 00 */
 .telephone {
     display: inline-block;
-    transform: translate(56.5em, 2.5em);
+    transform: translate(52em, 2.5em);
     width: 106px;
     height: 15px;
     font-style: normal;
@@ -94,15 +96,90 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
-    transform: translate(8em, 5em);
+    transform: translate(8em, 5.2em);
     background: url(.png);
     border-radius: 12px;
 }
 
-/* Поиск 
+/* Поиск */
 
+.header-wrapper{
+    margin-bottom: 30px;
+}
+.header-logo{
+    width: 130px;
+    height: 70px;
+    padding-top: 10px;
+}
+.header-container-nav{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 200px;
+}
+.header-nav > a{
+    padding-left:30px;
+    padding-right:30px;
+}
+.header-nav-element{
+    font-size: 16px;
+    text-decoration: none;
+}
+.header-phoneNumber{
+    font-size: 12px;
+    color: rgba(64, 49, 28, 0.5);
+    margin-top: 15px;
+}
+.header-wrapper, .header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.header-container{
+    justify-content: space-between;
+}
 
-    /*Текст шапки*/
+.header-form{
+    display: inline-block;
+    transform: translate(14.5em, -36em);
+}
+.header-form-searchBar{
+    width: 930px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    border: none;
+    padding-left: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.header-form-button{
+    height: 25px;
+    width: 25px;
+    border: none;
+    margin-left: -70px;
+    margin-right: 15px;
+    background: none;
+}
+.search{
+    background: none;
+}
+.header-container-links>a{
+    padding-left: 10px;
+}
+.shop_cart{  /*изображение корзины*/
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    transform: translate(-13.5em, -35.85em);
+}
+.customer{  /*изображение человечка*/
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    transform: translate(-12em, -35.85em);
+}
+
+ /*Текст шапки*/
 
 .text-caps {
     position: absolute;
