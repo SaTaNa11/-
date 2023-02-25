@@ -1543,7 +1543,7 @@ display: inline-block;
                   width: 100%;
                }
                .product-list {
-                  background: #fafafa;
+                  background: #ffffff;
                   padding: 15px 0;
                }
                .product-list h3 {
@@ -1700,6 +1700,7 @@ margin-left: auto;
    
 } 
 
+/*Закругление после популярных сладостей слева*/
 .polygon4 {
    position: absolute;
    width: 541.65px;
@@ -1707,12 +1708,14 @@ margin-left: auto;
    top: 1867px;
 }
 
+/*Закругление после популярных сладостей справа*/
 .polygon3 {
    position: absolute;
    width: 541.65px;
-   left: 56.19em;
+   left: 56.2em;
    top: 2001px;
 }
+
 .fon4
 {
    position: absolute;
@@ -1720,12 +1723,10 @@ margin-left: auto;
    height: 509.44px;
    left: -2px;
    top: 2500.61px;
-   
    background: url(image.png);
-   
    background: #E5DBE7;
-   
 } 
+
 .fon5
 {
    position: absolute;
@@ -1733,25 +1734,21 @@ margin-left: auto;
    height: 509.44px;
    left: 465px;
    top: 2501.73px;
-   
    background: url(image.png);
-   
    background: #E5DBE7;
-   
 } 
+
 .fon6
 {
    position: absolute;
    width: 500px;
    height: 509.44px;
-   left: 937px;
+   left: 942px;
    top: 2503.95px;
-   
    background: url(image.png);
-
    background: #E5DBE7;
-   
 } 
+
 .fon7
 {
    position: absolute;
@@ -1759,11 +1756,8 @@ margin-left: auto;
    height: 509.44px;
    left: 2px;
    top: 2820.8px;
-   
    background: url(image.png);
-   
    background: #E5DBE7;
-   
 } 
 .fon8
 {
@@ -1772,22 +1766,316 @@ margin-left: auto;
    height: 509.44px;
    left: 502px;
    top: 2820.8px;
-   
    background: url(image.png);
-   
    background: #E5DBE7;
-   
 } 
+
 .fon9
 {
    position: absolute;
-width: 500px;
-height: 509.44px;
-left: 942px;
-top: 2820.8px;
-
-background: url(image.png);
-   
+   width: 500px;
+   height: 509.44px;
+   left: 942px;
+   top: 2820.8px;
+   background: url(image.png);
    background: #E5DBE7;
-   
 } 
+
+/*Контейнер отзывы*/
+#container.reviews{
+   font-family: 'Montserrat', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.reviews{
+   position: absolute;
+   left: 660px;
+   top: 2085px;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 29px;
+   text-align: center;
+   color: #5C2F5E;
+}
+
+/*Квадрат в отзывах 1*/
+.circle1 {
+   width: 456px;
+   height: 459px;
+   border-radius: 60px;
+   background: #ffffff;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 28px;
+   gap: 12px;
+   position: absolute;
+   left: 3em;
+   top: 2200px;
+   filter: drop-shadow(0 0 10px #825884);
+   transition: 1s; /* Время эффекта */
+}
+
+.circle1:hover {
+   transform: scale(1.04); /* Увеличиваем масштаб */
+}
+
+/*Изображение Артема*/
+.artem{
+   display: inline-block;
+   position: relative;
+   top: 5em;
+}
+
+.text-artem {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 33px;
+   color: #3B183C;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   display: inline-block;
+   position: relative;
+   top: -1.7em;
+   left: 8.9em;
+}
+
+/*Звезды*/
+.star-artem-1 {
+   display: inline-block;
+   position: relative;
+   top: -3em;
+   left: 15.5em;
+}
+.star-artem-2 {
+   display: inline-block;
+   position: relative;
+   top: -5.13em;
+   left: 17em;
+}
+.star-artem-3 {
+   display: inline-block;
+   position: relative;
+   top: -7.23em;
+   left: 18.5em;
+}
+.star-artem-4 {
+   display: inline-block;
+   position: relative;
+   top: -9.33em;
+   left: 20em;
+}
+.star-artem-5 {
+   display: inline-block;
+   position: relative;
+   top: -11.45em;
+   left: 21.5em;
+}
+
+/*Сам отзыв Артема*/
+.text-artem-reviews{
+   line-height: 1.5;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+   color: #3B183C;
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+   display: inline-block;
+   position: relative;
+   top: -6em;
+}
+
+/*Квадрат в отзывах 2*/
+.circle2 {
+   width: 456px;
+   height: 459px;
+   border-radius: 60px;
+   background: #ffffff;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 28px;
+   gap: 12px;
+   position: absolute;
+   left: 37em;
+   top: 2200px;
+   filter: drop-shadow(0 0 10px #825884);
+   transition: 1s; /* Время эффекта */
+}
+
+.circle2:hover {
+   transform: scale(1.04); /* Увеличиваем масштаб */
+}
+
+/*Изображение Оксаны*/
+.oksana {
+   display: inline-block;
+   position: relative;
+   top: 5em;
+}
+
+.text-oksana {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 33px;
+   color: #3B183C;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   display: inline-block;
+   position: relative;
+   top: -1.7em;
+   left: 8.5em;
+}
+
+/*Звезды*/
+.star-oksana-1 {
+   display: inline-block;
+   position: relative;
+   top: -3em;
+   left: 15.5em;
+}
+.star-oksana-2 {
+   display: inline-block;
+   position: relative;
+   top: -5.13em;
+   left: 17em;
+}
+.star-oksana-3 {
+   display: inline-block;
+   position: relative;
+   top: -7.23em;
+   left: 18.5em;
+}
+.star-oksana-4 {
+   display: inline-block;
+   position: relative;
+   top: -9.33em;
+   left: 20em;
+}
+.star-oksana-5 {
+   display: inline-block;
+   position: relative;
+   top: -11.45em;
+   left: 21.5em;
+}
+
+/*Сам отзыв Оксаны*/
+.text-oksana-reviews{
+   line-height: 1.5;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+   color: #3B183C;
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+   display: inline-block;
+   position: relative;
+   top: -6em;
+}
+
+/*Квадрат в отзывах 3*/
+.circle3 {
+   width: 456px;
+   height: 459px;
+   border-radius: 60px;
+   background: #ffffff;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 28px;
+   gap: 12px;
+   position: absolute;
+   left: 71em;
+   top: 2200px;
+   transition: 1s; /* Время эффекта */
+   filter: drop-shadow(0 0 10px #825884); /*свечение*/
+}
+
+.circle3:hover {
+   transform: scale(1.04); /* Увеличиваем масштаб */
+}
+
+/*Изображение Ксении*/
+.kseniya {
+   display: inline-block;
+   position: relative;
+   top: 5em;
+}
+
+.text-kseniya {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 33px;
+   color: #3B183C;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   display: inline-block;
+   position: relative;
+   top: -1.7em;
+   left: 8.5em;
+}
+
+/*Звезды*/
+.star-kseniya-1 {
+   display: inline-block;
+   position: relative;
+   top: -3em;
+   left: 15.5em;
+}
+.star-kseniya-2 {
+   display: inline-block;
+   position: relative;
+   top: -5.13em;
+   left: 17em;
+}
+.star-kseniya-3 {
+   display: inline-block;
+   position: relative;
+   top: -7.23em;
+   left: 18.5em;
+}
+.star-kseniya-4 {
+   display: inline-block;
+   position: relative;
+   top: -9.33em;
+   left: 20em;
+}
+.star-kseniya-5 {
+   display: inline-block;
+   position: relative;
+   top: -11.45em;
+   left: 21.5em;
+}
+
+/*Сам отзыв Ксении*/
+.text-kseniya-reviews{
+   line-height: 1.5;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+   color: #3B183C;
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+   display: inline-block;
+   position: relative;
+   top: -6em;
+}
