@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="basket.css">
+    <script src="/basket-script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 <body>
    <header class="header center">
@@ -31,6 +34,7 @@
                <div class="header-container-links">
                   <a href="#"><img src="Изображения/shop_cart.svg" class="shop_cart" alt="shopping cart"></a>
                   <a href="#"><img src="Изображения/customer.svg" class="customer" alt="customer"></a>
+                  <div class="header-container-links-circle">2</div>
                </div>
             </div>
          </div>
@@ -40,8 +44,7 @@
       <!--Your Basket-->
       <section class="basket center">
          <div class="main-title">
-            <h2 class="main-title-text">Ваша корзина,</h2>
-            <span class="main-title-number">2 товара</span>
+            <h2 class="main-title-text">Ваша корзина, <span class="main-title-number">2 товара</span></h2>
          </div>
          <div class="basket-wrapper">
          <div class="basket-wrap">
@@ -138,17 +141,161 @@
          <h2 class="recomend-title">
             Популярные товары
          </h2>
-         <div class="recomend-wrap">
-         <div class="recomend-card">
-            <img src="" alt="">
+         <div class="recomend-wrap" id="recomend-wrap">
+            <!--1 item-->
+            <div class="recomend-item">
+               <div class="recomend-card">
+                  <img src="" alt="">
+               </div>
+               <p class="recomend-name">Название товара кратко</p>
+               <div class="recomend-price">
+                  <span class="recomend-price-after">Цена &#x20bd</span>
+                  <span class="recomed-price-before">Цена &#x20bd</span>
+               </div>
+               <div class="recomend-button-wrap">
+                  <button class="recomend-button">Купить</button>
+               </div>
+            </div>
+            <!--2 item-->
+            <div class="recomend-item">
+               <div class="recomend-card">
+                  <img src="" alt="">
+               </div>
+               <p class="recomend-name">Название товара кратко</p>
+               <div class="recomend-price">
+                  <span class="recomend-price-after">Цена &#x20bd</span>
+                  <span class="recomed-price-before">Цена &#x20bd</span>
+               </div>
+               <div class="recomend-button-wrap">
+                  <button class="recomend-button">Купить</button>
+               </div>
+            </div>
+            <!--3 item-->
+            <div class="recomend-item">
+               <div class="recomend-card">
+                  <img src="" alt="">
+               </div>
+               <p class="recomend-name">Название товара кратко</p>
+               <div class="recomend-price">
+                  <span class="recomend-price-after">Цена &#x20bd</span>
+                  <span class="recomed-price-before">Цена &#x20bd</span>
+               </div>
+               <div class="recomend-button-wrap">
+                  <button class="recomend-button">Купить</button>
+               </div>
+            </div>
+            <!--4 item-->
+            <div class="recomend-item">
+               <div class="recomend-card">
+                  <img src="" alt="">
+               </div>
+               <p class="recomend-name">Название товара кратко</p>
+               <div class="recomend-price">
+                  <span class="recomend-price-after">Цена &#x20bd</span>
+                  <span class="recomed-price-before">Цена &#x20bd</span>
+               </div>
+               <div class="recomend-button-wrap">
+                  <button class="recomend-button">Купить</button>
+               </div>
+            </div>
+            <!--5 item-->
+            <div class="recomend-item">
+               <div class="recomend-card">
+                  <img src="" alt="">
+               </div>
+               <p class="recomend-name">Название товара кратко</p>
+               <div class="recomend-price">
+                  <span class="recomend-price-after">Цена &#x20bd</span>
+                  <span class="recomed-price-before">Цена &#x20bd</span>
+               </div>
+               <div class="recomend-button-wrap">
+                  <button class="recomend-button">Купить</button>
+               </div>
+            </div>
+            <!--6 item-->
+            <div class="recomend-item">
+               <div class="recomend-card">
+                  <img src="" alt="">
+               </div>
+               <p class="recomend-name">Название товара кратко</p>
+               <div class="recomend-price">
+                  <span class="recomend-price-after">Цена &#x20bd</span>
+                  <span class="recomed-price-before">Цена &#x20bd</span>
+               </div>
+               <div class="recomend-button-wrap">
+                  <button class="recomend-button">Купить</button>
+               </div>
+            </div>
+            <!--7 item-->
+            <div class="recomend-item">
+               <div class="recomend-card">
+                  <img src="" alt="">
+               </div>
+               <p class="recomend-name">Название товара кратко</p>
+               <div class="recomend-price">
+                  <span class="recomend-price-after">Цена &#x20bd</span>
+                  <span class="recomed-price-before">Цена &#x20bd</span>
+               </div>
+               <div class="recomend-button-wrap">
+                  <button class="recomend-button">Купить</button>
+               </div>
+            </div>
          </div>
-         <span class="recomend-name">Название товара кратко</span>
-         <div class="recomend-price">
-         <span class="recomend-price-after">Цена &#x20bd</span>
-         <span class="recomed-price-before">Цена &#x20bd</span>
-          </div>
-         </div>
+        <div class="recomend-buttons">
+        <button id="recomend-leftButton"><img src="Изображения/arrow-left.svg" alt="" class="recomend-leftButton-img"></button>
+        <button id="recomend-rightButton"><img src="Изображения/arrow-right.svg" alt="" class="recomend-rightButton-img"></button>
+        </div>
+         <script>
+         $('#recomend-rightButton').click(function() {
+            event.preventDefault();
+            $('#recomend-wrap').animate({
+               scrollLeft: "+=200px"
+            }, "slow");
+         });
+         $('#recomend-leftButton').click(function() {
+            event.preventDefault();
+            $('#recomend-wrap').animate({
+               scrollLeft: "-=200px"
+            }, "slow");
+         });
+         </script>
       </section>
    </main>
+   <footer class="footer center">
+      <div class="footer-wrap">
+         <div class="logo-wrap">
+            <img src="Изображения/logo-footer.svg" alt="" class="footer-logo">
+         </div>
+         <div class="footer-nav">
+            <h3 class="footer-nav-title">НАВИГАЦИЯ</h3>
+            <ul class="footer-nav-list">
+               <il class="footer-nav-item"><a href="#" class="footer-nav-item-link">О нас</a></il>
+               <il class="footer-nav-item"><a href="#" class="footer-nav-item-link">Главная страница</a></il>
+               <il class="footer-nav-item"><a href="#" class="footer-nav-item-link">Каталог товаров</a></il>
+               <il class="footer-nav-item"><a href="#" class="footer-nav-item-link">Акции</a></il>
+               <il class="footer-nav-item"><a href="#" class="footer-nav-item-link">Доставка</a></il>
+               <il class="footer-nav-item"><a href="#" class="footer-nav-item-link">Отзывы</a></il>
+               <il class="footer-nav-item"><a href="#" class="footer-nav-item-link">Корзина</a></il>
+            </ul>
+         </div>
+         <div class="footer-contats">
+            <h3 class="footer-contacts-title">КОНТАКТЫ</h3>
+            <ul class="footer-contacts-list">
+               <li class="footer-contacts-subtitle"><span class="contacts-subtitle-text">Наш адрес</span></li>
+               <li class="footer-contacts-item"><span class="contacts-item-adress">М, Кузнецкий мост, 12</span></li>
+               <li class="footer-contacts-subtitle"><span class="contacts-subtitle-text">Наш телефон</span></li>
+               <li class="footer-contacts-item"><a href="#" class="contacts-item-number">+7 900 000 00 00</a></li>
+            </ul>
+         </div>
+         <div class="footer-socialNetworks">
+            <h3 class="footer-socialNetworks-title">Мы в соцсетях</h3>
+            <div class="footer-socialNetworks-links">
+               <a href="#" class="socialNetworks-links-vk"><img src="Изображения/vk.svg" alt="" class="socialNetworks-links-img"></a>
+               <a href="#" class="socialNetworks-links-instagram"><img src="Изображения/instagram.svg" alt="" class="socialNetworks-links-img"></a>
+               <a href="#" class="socialNetworks-links-telegram"><img src="Изображения/telegram.svg" alt="" class="socialNetworks-links-img"></a>
+            </div>
+         </div>
+      </div>
+   </footer>
 </body>
 </html>
