@@ -1908,17 +1908,23 @@
    background: #E5DBE7;
 }
 
-/*Контейнер отзывы*/
-#container.reviews {
-   font-family: 'Montserrat', sans-serif;
-   margin: 0;
-   padding: 0;
+/*Фон контейнер*/
+
+.background-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   /*работает с display: flex; выравнивает объекты между собой*/
+   background-color: #E5DBE7;
+   width: 1440px;
+   position: absolute;
+   top: 3329.8px;
 }
 
 .reviews {
    position: absolute;
    left: 660px;
-   top: 2085px;
+   top: 2100px;
    font-family: 'Montserrat';
    font-style: normal;
    font-weight: 700;
@@ -2224,4 +2230,130 @@
    display: inline-block;
    position: relative;
    top: -6em;
+}
+
+.questions {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   color: #3B183C;
+   /* Inside auto layout */
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   text-align: center;
+   transform: translate(0em, -117em);
+}
+
+.container-questions {
+   display: inline-block;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   transform: translate(20em, -195em);
+}
+
+/*FAQ section, where the accordion is kept, including section specific css*/
+#faq {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   min-height: 100vh;
+   position: relative;
+   top: -8em;
+}
+
+#faq .add {
+   /*Add is the name for the plus icon*/
+   display: block;
+}
+
+#faq .remove {
+   /*Remove is the name for the less icon*/
+   display: none;
+}
+
+#faq i {
+   font-size: 30px;
+}
+
+/*Accordion container and each item*/
+.accordion {
+   max-width: 800px;
+
+   margin: 0 auto;
+   padding: 0 1.5rem;
+}
+
+.accordion-item {
+   background-color: transparent;
+   border-bottom: 3px solid #3B183C;
+
+   margin-bottom: 10px;
+   padding: 10px;
+}
+
+/*Styles for the question*/
+
+.accordion-title {
+   display: flex;
+
+   align-items: center;
+   justify-content: space-around;
+
+   color: #3B183C;
+   font-size: 18px;
+   font-family: Open Sans;
+   font-weight: 600;
+
+   width: 100%;
+   padding: 1rem 0;
+   cursor: pointer;
+   transition-duration: 0.5s;
+}
+
+.accordion-title:hover {
+   color: #3B183C;
+}
+
+.accordion-title h2 {
+   width: 80%;
+}
+
+/*Styles for the answer*/
+
+.accordion-content {
+   max-height: 0;
+   overflow: hidden;
+   position: relative;
+   background-color: #ffffff;
+   transition: max-height 0.6s;
+   font-family: Open Sans;
+   font-weight: 400;
+}
+
+.accordion-content p {
+   padding: 20px;
+   color: #3B183C;
+}
+
+.to-return {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+color: #3B183C;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+text-align: center;
+transform: translate(0em, -230em);
+}
+
+.to-return>a {
+   text-decoration: none;
+   color: #3B183C
 }
