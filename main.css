@@ -5,1700 +5,1832 @@
 }
 
 /* Выравнивание по центру */
-.popularsweets
-{
-    text-align: center;
-    width: 307px;
-    height: 32px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    
-    color: #40311C;
-    flex: none;
+.popularsweets {
+   text-align: center;
+   width: 307px;
+   height: 32px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 29px;
+
+   color: #40311C;
+   flex: none;
    order: 0;
    flex-grow: 0;
    margin-left: auto;
-    margin-right: auto;
+   margin-right: auto;
 }
 
 /* Шоколадные конфеты брауни */
-.product1
-{
-    box-sizing: border-box;
- }
- .product1 {
-    width: 208px;
-height: 208px;
-margin: 0 auto;
+.product1 {
+   box-sizing: border-box;
+}
+
+.product1 {
+   width: 208px;
+   height: 208px;
+   margin: 0 auto;
    border-bottom: 2px solid #F5F5F5;
 
-background: #DFCFDF;
-border-radius: 30px;
-font-family: "Open Sans";
+   background: #DFCFDF;
+   border-radius: 30px;
+   font-family: "Open Sans";
    transition: .3s ease-in;
 
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-display: inline-block;
- transform: translate(3em, 5em);
-
- }
- .product1:hover {
-    border-bottom: 2px solid #7e5b5b;
- }
- .product1 img {
-    display: block;
-    width: 100%;
- }
- .product-list {
-    background: #fafafa;
-    padding: 15px 0;
- }
- .product-list h3 {
-    font-size: 18px;
-    font-weight: 400;
-    color: #444444;
-    margin: 0 0 10px 0;
- }
- .price {
-    
-width: 73px;
-height: 24px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-
-color: #000000;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
- }
- .price2 {
-    
- height: 24px;
- display: inline-block;
- transform: translate(3em, 0em);
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-decoration-line: line-through;
-
-color: #000000;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
-
- }
- .button {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 4px 40px;
-    gap: 20px;
-    
-    width: 60px;
-    height: 20px;
-    
-    background: #F8CFD2;
-    border-radius: 30px;
-    
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 1;
-    flex-grow: 0;
- }
- .product-item:hover .button {
-    background: #F8CFD2;
- }
-
- /* Мягкий клубничный шоколад */
- .product2
-{
-    box-sizing: border-box;
- }
- .product2 {
-    width: 208px;
-height: 208px;
-margin: 0 auto;
-   border-bottom: 2px solid #F5F5F5;
-
-background: #DFCFDF;
-border-radius: 30px;
-font-family: "Open Sans";
-   transition: .3s ease-in;
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-display: inline-block;
- transform: translate(3em, 6.5em);
-
- }
-  .product2:hover {
-     border-bottom: 2px solid #7e5b5b;
-  }
-  .product2 img {
-     display: block;
-     width: 100%;
-  }
-  .product-list {
-     background: #fafafa;
-     padding: 15px 0;
-  }
-  .product-list h3 {
-     font-size: 18px;
-     font-weight: 400;
-     color: #444444;
-     margin: 0 0 10px 0;
-  }
-  .price {
-     
- width: 73px;
- height: 24px;
- 
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 400;
- font-size: 20px;
- line-height: 24px;
- 
- color: #000000;
- 
- 
- /* Inside auto layout */
- 
- flex: none;
- order: 0;
- flex-grow: 0;
-  }
-  .price2 {
-     
-  height: 24px;
-  display: inline-block;
-  transform: translate(3em, 0em);
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 400;
- font-size: 20px;
- line-height: 24px;
- text-decoration-line: line-through;
- 
- color: #000000;
- 
- 
- /* Inside auto layout */
- 
- flex: none;
- order: 1;
- flex-grow: 0;
- 
-  }
-  .button {
-     display: flex;
-     flex-direction: row;
-     align-items: flex-start;
-     padding: 4px 40px;
-     gap: 20px;
-     
-     width: 60px;
-     height: 20px;
-     
-     background: #F8CFD2;
-     border-radius: 30px;
-     
-     /* Inside auto layout */
-     
-     flex: none;
-     order: 1;
-     flex-grow: 0;
-  }
-  .product-item:hover .button {
-     background: #F8CFD2;
-  }
-  /* Клубничный покки */
-  .product3
-{
-    box-sizing: border-box;
- }
- .product3 {
-    width: 208px;
-height: 208px;
-margin: 0 auto;
-   border-bottom: 2px solid #F5F5F5;
-
-background: #DFCFDF;
-border-radius: 30px;
-font-family: "Open Sans";
-   transition: .3s ease-in;
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-display: inline-block;
- transform: translate(3em, 7.5em);
-
- }
-  .product3:hover {
-     border-bottom: 2px solid #7e5b5b;
-  }
-  .product3 img {
-     display: block;
-     width: 100%;
-  }
-  .product-list {
-     background: #fafafa;
-     padding: 15px 0;
-  }
-  .product-list h3 {
-     font-size: 18px;
-     font-weight: 400;
-     color: #444444;
-     margin: 0 0 10px 0;
-  }
-  .price {
-     
- width: 73px;
- height: 24px;
- 
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 400;
- font-size: 20px;
- line-height: 24px;
- 
- color: #000000;
- 
- 
- /* Inside auto layout */
- 
- flex: none;
- order: 0;
- flex-grow: 0;
-  }
-  .price2 {
-     
-  height: 24px;
-  display: inline-block;
-  transform: translate(3em, 0em);
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 400;
- font-size: 20px;
- line-height: 24px;
- text-decoration-line: line-through;
- 
- color: #000000;
- 
- 
- /* Inside auto layout */
- 
- flex: none;
- order: 1;
- flex-grow: 0;
- 
-  }
-  .button {
-     display: flex;
-     flex-direction: row;
-     align-items: flex-start;
-     padding: 4px 40px;
-     gap: 20px;
-     
-     width: 60px;
-     height: 20px;
-     
-     background: #F8CFD2;
-     border-radius: 30px;
-     
-     /* Inside auto layout */
-     
-     flex: none;
-     order: 1;
-     flex-grow: 0;
-  }
-  .product-item:hover .button {
-     background: #F8CFD2;
-  }
-  /* Воздушные рисовые крекеры бурборн с майонезом */
-  .product4
-  {
-      box-sizing: border-box;
-   }
-   .product4 {
-      width: 208px;
-  height: 208px;
-  margin: 0 auto;
-     border-bottom: 2px solid #F5F5F5;
-  
-  background: #DFCFDF;
-  border-radius: 30px;
-  font-family: "Open Sans";
-     transition: .3s ease-in;
-  
-  /* Inside auto layout */
-  
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  display: inline-block;
-   transform: translate(20em, -58.5em);
-  
-   }
-    .product4:hover {
-       border-bottom: 2px solid #7e5b5b;
-    }
-    .product4 img {
-       display: block;
-       width: 100%;
-    }
-    .product-list {
-       background: #fafafa;
-       padding: 15px 0;
-    }
-    .product-list h3 {
-       font-size: 18px;
-       font-weight: 400;
-       color: #444444;
-       margin: 0 0 10px 0;
-    }
-    .price {
-       
-   width: 73px;
-   height: 24px;
-   
-   font-family: 'Montserrat';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 20px;
-   line-height: 24px;
-   
-   color: #000000;
-   
-   
    /* Inside auto layout */
-   
+
    flex: none;
    order: 0;
    flex-grow: 0;
-    }
-    .price2 {
-       
-    height: 24px;
-    display: inline-block;
-    transform: translate(3em, 0em);
-   font-family: 'Montserrat';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 20px;
-   line-height: 24px;
-   text-decoration-line: line-through;
-   
-   color: #000000;
-   
-   
-   /* Inside auto layout */
-   
-   flex: none;
-   order: 1;
-   flex-grow: 0;
-   
-    }
-    .button {
-       display: flex;
-       flex-direction: row;
-       align-items: flex-start;
-       padding: 4px 40px;
-       gap: 20px;
-       
-       width: 60px;
-       height: 20px;
-       
-       background: #F8CFD2;
-       border-radius: 30px;
-       
-       /* Inside auto layout */
-       
-       flex: none;
-       order: 1;
-       flex-grow: 0;
-    }
-    .product-item:hover .button {
-       background: #F8CFD2;
-    }
-    /* Конфеты с дыней Юбари */
-    .product5
-    {
-        box-sizing: border-box;
-     }
-     .product5 {
-        width: 208px;
-    height: 208px;
-    margin: 0 auto;
-       border-bottom: 2px solid #F5F5F5;
-    
-    background: #DFCFDF;
-    border-radius: 30px;
-    font-family: "Open Sans";
-       transition: .3s ease-in;
-    
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    display: inline-block;
-     transform: translate(20em, -57em);
-    
-     }
-      .product5:hover {
-         border-bottom: 2px solid #7e5b5b;
-      }
-      .product5 img {
-         display: block;
-         width: 100%;
-      }
-      .product-list {
-         background: #fafafa;
-         padding: 15px 0;
-      }
-      .product-list h3 {
-         font-size: 18px;
-         font-weight: 400;
-         color: #444444;
-         margin: 0 0 10px 0;
-      }
-      .price {
-         
-     width: 73px;
-     height: 24px;
-     
-     font-family: 'Montserrat';
-     font-style: normal;
-     font-weight: 400;
-     font-size: 20px;
-     line-height: 24px;
-     
-     color: #000000;
-     
-     
-     /* Inside auto layout */
-     
-     flex: none;
-     order: 0;
-     flex-grow: 0;
-      }
-      .price2 {
-         
-      height: 24px;
-      display: inline-block;
-      transform: translate(3em, 0em);
-     font-family: 'Montserrat';
-     font-style: normal;
-     font-weight: 400;
-     font-size: 20px;
-     line-height: 24px;
-     text-decoration-line: line-through;
-     
-     color: #000000;
-     
-     
-     /* Inside auto layout */
-     
-     flex: none;
-     order: 1;
-     flex-grow: 0;
-     
-      }
-      .button {
-         display: flex;
-         flex-direction: row;
-         align-items: flex-start;
-         padding: 4px 40px;
-         gap: 20px;
-         
-         width: 60px;
-         height: 20px;
-         
-         background: #F8CFD2;
-         border-radius: 30px;
-         
-         /* Inside auto layout */
-         
-         flex: none;
-         order: 1;
-         flex-grow: 0;
-      }
-      .product-item:hover .button {
-         background: #F8CFD2;
-      }
-/* Желе конняку YUKIGUNI */
-.product6
-{
-    box-sizing: border-box;
- }
- .product6 {
-    width: 208px;
-height: 208px;
-margin: 0 auto;
-   border-bottom: 2px solid #F5F5F5;
-
-background: #DFCFDF;
-border-radius: 30px;
-font-family: "Open Sans";
-   transition: .3s ease-in;
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-display: inline-block;
- transform: translate(20em, -54.5em);
-
- }
-  .product6:hover {
-     border-bottom: 2px solid #7e5b5b;
-  }
-  .product6 img {
-     display: block;
-     width: 100%;
-  }
-  .product-list {
-     background: #fafafa;
-     padding: 15px 0;
-  }
-  .product-list h3 {
-     font-size: 18px;
-     font-weight: 400;
-     color: #444444;
-     margin: 0 0 10px 0;
-  }
-  .price {
-     
- width: 73px;
- height: 24px;
- 
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 400;
- font-size: 20px;
- line-height: 24px;
- 
- color: #000000;
- 
- 
- /* Inside auto layout */
- 
- flex: none;
- order: 0;
- flex-grow: 0;
-  }
-  .price2 {
-     
-  height: 24px;
-  display: inline-block;
-  transform: translate(3em, 0em);
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 400;
- font-size: 20px;
- line-height: 24px;
- text-decoration-line: line-through;
- 
- color: #000000;
- 
- 
- /* Inside auto layout */
- 
- flex: none;
- order: 1;
- flex-grow: 0;
- 
-  }
-  .button {
-     display: flex;
-     flex-direction: row;
-     align-items: flex-start;
-     padding: 4px 40px;
-     gap: 20px;
-     
-     width: 60px;
-     height: 20px;
-     
-     background: #F8CFD2;
-     border-radius: 30px;
-     
-     /* Inside auto layout */
-     
-     flex: none;
-     order: 1;
-     flex-grow: 0;
-  }
-  .product-item:hover .button {
-     background: #F8CFD2;
-  }
-  /* Леденцы из маринованной сливы*/
-  .product7
-{
-    box-sizing: border-box;
- }
- .product7 {
-    width: 208px;
-height: 208px;
-margin: 0 auto;
-   border-bottom: 2px solid #F5F5F5;
-
-background: #DFCFDF;
-border-radius: 30px;
-font-family: "Open Sans";
-   transition: .3s ease-in;
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-display: inline-block;
- transform: translate(39em, -119.3em);
-
- }
-  .product7:hover {
-     border-bottom: 2px solid #7e5b5b;
-  }
-  .product7 img {
-     display: block;
-     width: 100%;
-  }
-  .product-list {
-     background: #fafafa;
-     padding: 15px 0;
-  }
-  .product-list h3 {
-     font-size: 18px;
-     font-weight: 400;
-     color: #444444;
-     margin: 0 0 10px 0;
-  }
-  .price {
-     
- width: 73px;
- height: 24px;
- 
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 400;
- font-size: 20px;
- line-height: 24px;
- 
- color: #000000;
- 
- 
- /* Inside auto layout */
- 
- flex: none;
- order: 0;
- flex-grow: 0;
-  }
-  .price2 {
-     
-  height: 24px;
-  display: inline-block;
-  transform: translate(3em, 0em);
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 400;
- font-size: 20px;
- line-height: 24px;
- text-decoration-line: line-through;
- 
- color: #000000;
- 
- 
- /* Inside auto layout */
- 
- flex: none;
- order: 1;
- flex-grow: 0;
- 
-  }
-  .button {
-     display: flex;
-     flex-direction: row;
-     align-items: flex-start;
-     padding: 4px 40px;
-     gap: 20px;
-     
-     width: 60px;
-     height: 20px;
-     
-     background: #F8CFD2;
-     border-radius: 30px;
-     
-     /* Inside auto layout */
-     
-     flex: none;
-     order: 1;
-     flex-grow: 0;
-  }
-  .product-item:hover .button {
-     background: #F8CFD2;
-  }
-/* Японское леденцовое ассорти */
-.product8
-{
-    box-sizing: border-box;
- }
- .product8 {
-    width: 208px;
-height: 208px;
-margin: 0 auto;
-   border-bottom: 2px solid #F5F5F5;
-
-background: #DFCFDF;
-border-radius: 30px;
-font-family: "Open Sans";
-   transition: .3s ease-in;
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-display: inline-block;
- transform: translate(39em, -117.8em);
-
- }
-  .product8:hover {
-     border-bottom: 2px solid #7e5b5b;
-  }
-  .product8 img {
-     display: block;
-     width: 100%;
-  }
-  .product-list {
-     background: #fafafa;
-     padding: 15px 0;
-  }
-  .product-list h3 {
-     font-size: 18px;
-     font-weight: 400;
-     color: #444444;
-     margin: 0 0 10px 0;
-  }
-  .price {
-     
- width: 73px;
- height: 24px;
- 
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 400;
- font-size: 20px;
- line-height: 24px;
- 
- color: #000000;
- 
- 
- /* Inside auto layout */
- 
- flex: none;
- order: 0;
- flex-grow: 0;
-  }
-  .price2 {
-     
-  height: 24px;
-  display: inline-block;
-  transform: translate(3em, 0em);
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 400;
- font-size: 20px;
- line-height: 24px;
- text-decoration-line: line-through;
- 
- color: #000000;
- 
- 
- /* Inside auto layout */
- 
- flex: none;
- order: 1;
- flex-grow: 0;
- 
-  }
-  .button {
-     display: flex;
-     flex-direction: row;
-     align-items: flex-start;
-     padding: 4px 40px;
-     gap: 20px;
-     
-     width: 60px;
-     height: 20px;
-     
-     background: #F8CFD2;
-     border-radius: 30px;
-     
-     /* Inside auto layout */
-     
-     flex: none;
-     order: 1;
-     flex-grow: 0;
-  }
-  .product-item:hover .button {
-     background: #F8CFD2;
-  }
-  /* Шоколадный батончик */
-  .product9
-{
-    box-sizing: border-box;
- }
- .product9 {
-    width: 208px;
-height: 208px;
-margin: 0 auto;
-   border-bottom: 2px solid #F5F5F5;
-
-background: #DFCFDF;
-border-radius: 30px;
-font-family: "Open Sans";
-   transition: .3s ease-in;
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-display: inline-block;
- transform: translate(39em, -115.4em);
-
- }
-  .product9:hover {
-     border-bottom: 2px solid #7e5b5b;
-  }
-  .product9 img {
-     display: block;
-     width: 100%;
-  }
-  .product-list {
-     background: #fafafa;
-     padding: 15px 0;
-  }
-  .product-list h3 {
-     font-size: 18px;
-     font-weight: 400;
-     color: #444444;
-     margin: 0 0 10px 0;
-  }
-  .price {
-     
- width: 73px;
- height: 24px;
- 
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 400;
- font-size: 20px;
- line-height: 24px;
- 
- color: #000000;
- 
- 
- /* Inside auto layout */
- 
- flex: none;
- order: 0;
- flex-grow: 0;
-  }
-  .price2 {
-     
-  height: 24px;
-  display: inline-block;
-  transform: translate(3em, 0em);
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 400;
- font-size: 20px;
- line-height: 24px;
- text-decoration-line: line-through;
- 
- color: #000000;
- 
- 
- /* Inside auto layout */
- 
- flex: none;
- order: 1;
- flex-grow: 0;
- 
-  }
-  .button {
-     display: flex;
-     flex-direction: row;
-     align-items: flex-start;
-     padding: 4px 40px;
-     gap: 20px;
-     
-     width: 60px;
-     height: 20px;
-     
-     background: #F8CFD2;
-     border-radius: 30px;
-     
-     /* Inside auto layout */
-     
-     flex: none;
-     order: 1;
-     flex-grow: 0;
-  }
-  .product-item:hover .button {
-     background: #F8CFD2;
-  }
-  /* Дынный желе-щербет */
-  .product10
-  {
-      box-sizing: border-box;
-   }
-   .product10 {
-      width: 208px;
-  height: 208px;
-  margin: 0 auto;
-     border-bottom: 2px solid #F5F5F5;
-  
-  background: #DFCFDF;
-  border-radius: 30px;
-  font-family: "Open Sans";
-     transition: .3s ease-in;
-  
-  /* Inside auto layout */
-  
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  display: inline-block;
-   transform: translate(58em, -180.2em);
-  
-   }
-    .product10:hover {
-       border-bottom: 2px solid #7e5b5b;
-    }
-    .product10 img {
-       display: block;
-       width: 100%;
-    }
-    .product-list {
-       background: #fafafa;
-       padding: 15px 0;
-    }
-    .product-list h3 {
-       font-size: 18px;
-       font-weight: 400;
-       color: #444444;
-       margin: 0 0 10px 0;
-    }
-    .price {
-       
-   width: 73px;
-   height: 24px;
-   
-   font-family: 'Montserrat';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 20px;
-   line-height: 24px;
-   
-   color: #000000;
-   
-   
-   /* Inside auto layout */
-   
-   flex: none;
-   order: 0;
-   flex-grow: 0;
-    }
-    .price2 {
-       
-    height: 24px;
-    display: inline-block;
-    transform: translate(3em, 0em);
-   font-family: 'Montserrat';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 20px;
-   line-height: 24px;
-   text-decoration-line: line-through;
-   
-   color: #000000;
-   
-   
-   /* Inside auto layout */
-   
-   flex: none;
-   order: 1;
-   flex-grow: 0;
-   
-    }
-    .button {
-       display: flex;
-       flex-direction: row;
-       align-items: flex-start;
-       padding: 4px 40px;
-       gap: 20px;
-       
-       width: 60px;
-       height: 20px;
-       
-       background: #F8CFD2;
-       border-radius: 30px;
-       
-       /* Inside auto layout */
-       
-       flex: none;
-       order: 1;
-       flex-grow: 0;
-    }
-    .product-item:hover .button {
-       background: #F8CFD2;
-    }
-     /* Кислые жевательные конфеты */
-     .product11
-     {
-         box-sizing: border-box;
-      }
-      .product11 {
-         width: 208px;
-     height: 208px;
-     margin: 0 auto;
-        border-bottom: 2px solid #F5F5F5;
-     
-     background: #DFCFDF;
-     border-radius: 30px;
-     font-family: "Open Sans";
-        transition: .3s ease-in;
-     
-     /* Inside auto layout */
-     
-     flex: none;
-     order: 0;
-     flex-grow: 0;
-     display: inline-block;
-      transform: translate(58em, -178.7em);
-     
-      }
-       .product11:hover {
-          border-bottom: 2px solid #7e5b5b;
-       }
-       .product11 img {
-          display: block;
-          width: 100%;
-       }
-       .product-list {
-          background: #fafafa;
-          padding: 15px 0;
-       }
-       .product-list h3 {
-          font-size: 18px;
-          font-weight: 400;
-          color: #444444;
-          margin: 0 0 10px 0;
-       }
-       .price {
-          
-      width: 73px;
-      height: 24px;
-      
-      font-family: 'Montserrat';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 24px;
-      
-      color: #000000;
-      
-      
-      /* Inside auto layout */
-      
-      flex: none;
-      order: 0;
-      flex-grow: 0;
-       }
-       .price2 {
-          
-       height: 24px;
-       display: inline-block;
-       transform: translate(3em, 0em);
-      font-family: 'Montserrat';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 24px;
-      text-decoration-line: line-through;
-      
-      color: #000000;
-      
-      
-      /* Inside auto layout */
-      
-      flex: none;
-      order: 1;
-      flex-grow: 0;
-      
-       }
-       .button {
-          display: flex;
-          flex-direction: row;
-          align-items: flex-start;
-          padding: 4px 40px;
-          gap: 20px;
-          
-          width: 60px;
-          height: 20px;
-          
-          background: #F8CFD2;
-          border-radius: 30px;
-          
-          /* Inside auto layout */
-          
-          flex: none;
-          order: 1;
-          flex-grow: 0;
-       }
-       .product-item:hover .button {
-          background: #F8CFD2;
-       }
-       /* Тайаки */
-       .product12
-       {
-           box-sizing: border-box;
-        }
-        .product12 {
-           width: 208px;
-       height: 208px;
-       margin: 0 auto;
-          border-bottom: 2px solid #F5F5F5;
-       
-       background: #DFCFDF;
-       border-radius: 30px;
-       font-family: "Open Sans";
-          transition: .3s ease-in;
-       
-       /* Inside auto layout */
-       
-       flex: none;
-       order: 0;
-       flex-grow: 0;
-       display: inline-block;
-        transform: translate(58em, -175em);
-       
-        }
-         .product12:hover {
-            border-bottom: 2px solid #7e5b5b;
-         }
-         .product12 img {
-            display: block;
-            width: 100%;
-         }
-         .product-list {
-            background: #fafafa;
-            padding: 15px 0;
-         }
-         .product-list h3 {
-            font-size: 18px;
-            font-weight: 400;
-            color: #444444;
-            margin: 0 0 10px 0;
-         }
-         .price {
-            
-        width: 73px;
-        height: 24px;
-        
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 24px;
-        
-        color: #000000;
-        
-        
-        /* Inside auto layout */
-        
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-         }
-         .price2 {
-            
-         height: 24px;
-         display: inline-block;
-         transform: translate(3em, 0em);
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 24px;
-        text-decoration-line: line-through;
-        
-        color: #000000;
-        
-        
-        /* Inside auto layout */
-        
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-        
-         }
-         .button {
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            padding: 4px 40px;
-            gap: 20px;
-            
-            width: 60px;
-            height: 20px;
-            
-            background: #F8CFD2;
-            border-radius: 30px;
-            
-            /* Inside auto layout */
-            
-            flex: none;
-            order: 1;
-            flex-grow: 0;
-         }
-         .product-item:hover .button {
-            background: #F8CFD2;
-         }
-         /* Манговое желе */
-         .product13
-         {
-             box-sizing: border-box;
-          }
-          .product13 {
-             width: 208px;
-         height: 208px;
-         margin: 0 auto;
-            border-bottom: 2px solid #F5F5F5;
-         
-         background: #DFCFDF;
-         border-radius: 30px;
-         font-family: "Open Sans";
-            transition: .3s ease-in;
-         
-         /* Inside auto layout */
-         
-         flex: none;
-         order: 0;
-         flex-grow: 0;
-         display: inline-block;
-          transform: translate(75em, -234.4em);
-         
-          }
-           .product13:hover {
-              border-bottom: 2px solid #7e5b5b;
-           }
-           .product13 img {
-              display: block;
-              width: 100%;
-           }
-           .product-list {
-              background: #fafafa;
-              padding: 15px 0;
-           }
-           .product-list h3 {
-              font-size: 18px;
-              font-weight: 400;
-              color: #444444;
-              margin: 0 0 10px 0;
-           }
-           .price {
-              
-          width: 73px;
-          height: 24px;
-          
-          font-family: 'Montserrat';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 20px;
-          line-height: 24px;
-          
-          color: #000000;
-          
-          
-          /* Inside auto layout */
-          
-          flex: none;
-          order: 0;
-          flex-grow: 0;
-           }
-           .price2 {
-              
-           height: 24px;
-           display: inline-block;
-           transform: translate(3em, 0em);
-          font-family: 'Montserrat';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 20px;
-          line-height: 24px;
-          text-decoration-line: line-through;
-          
-          color: #000000;
-          
-          
-          /* Inside auto layout */
-          
-          flex: none;
-          order: 1;
-          flex-grow: 0;
-          
-           }
-           .button {
-              display: flex;
-              flex-direction: row;
-              align-items: flex-start;
-              padding: 4px 40px;
-              gap: 20px;
-              
-              width: 60px;
-              height: 20px;
-              
-              background: #F8CFD2;
-              border-radius: 30px;
-              
-              /* Inside auto layout */
-              
-              flex: none;
-              order: 1;
-              flex-grow: 0;
-           }
-           .product-item:hover .button {
-              background: #F8CFD2;
-           }
-           /* Рисовые снеки */
-           .product14
-           {
-               box-sizing: border-box;
-            }
-            .product14 {
-               width: 208px;
-           height: 208px;
-           margin: 0 auto;
-              border-bottom: 2px solid #F5F5F5;
-           
-           background: #DFCFDF;
-           border-radius: 30px;
-           font-family: "Open Sans";
-              transition: .3s ease-in;
-           
-           /* Inside auto layout */
-           
-           flex: none;
-           order: 0;
-           flex-grow: 0;
-           display: inline-block;
-            transform: translate(75em, -231.5em);
-           
-            }
-             .product14:hover {
-                border-bottom: 2px solid #7e5b5b;
-             }
-             .product14 img {
-                display: block;
-                width: 100%;
-             }
-             .product-list {
-                background: #fafafa;
-                padding: 15px 0;
-             }
-             .product-list h3 {
-                font-size: 18px;
-                font-weight: 400;
-                color: #444444;
-                margin: 0 0 10px 0;
-             }
-             .price {
-                
-            width: 73px;
-            height: 24px;
-            
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 24px;
-            
-            color: #000000;
-            
-            
-            /* Inside auto layout */
-            
-            flex: none;
-            order: 0;
-            flex-grow: 0;
-             }
-             .price2 {
-                
-             height: 24px;
-             display: inline-block;
-             transform: translate(3em, 0em);
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 24px;
-            text-decoration-line: line-through;
-            
-            color: #000000;
-            
-            
-            /* Inside auto layout */
-            
-            flex: none;
-            order: 1;
-            flex-grow: 0;
-            
-             }
-             .button {
-                display: flex;
-                flex-direction: row;
-                align-items: flex-start;
-                padding: 4px 40px;
-                gap: 20px;
-                
-                width: 60px;
-                height: 20px;
-                
-                background: #F8CFD2;
-                border-radius: 30px;
-                
-                /* Inside auto layout */
-                
-                flex: none;
-                order: 1;
-                flex-grow: 0;
-             }
-             .product-item:hover .button {
-                background: #F8CFD2;
-             }
-             /* Съедобный бокс для детей */
-             .product15
-             {
-                 box-sizing: border-box;
-              }
-              .product15 {
-                 width: 208px;
-             height: 208px;
-             margin: 0 auto;
-                border-bottom: 2px solid #F5F5F5;
-             
-             background: #DFCFDF;
-             border-radius: 30px;
-             font-family: "Open Sans";
-                transition: .3s ease-in;
-             
-             /* Inside auto layout */
-             
-             flex: none;
-             order: 0;
-             flex-grow: 0;
-             display: inline-block;
-              transform: translate(75em, -229em);
-             
-              }
-               .product15:hover {
-                  border-bottom: 2px solid #7e5b5b;
-               }
-               .product15 img {
-                  display: block;
-                  width: 100%;
-               }
-               .product-list {
-                  background: #ffffff;
-                  padding: 15px 0;
-               }
-               .product-list h3 {
-                  font-size: 18px;
-                  font-weight: 400;
-                  color: #444444;
-                  margin: 0 0 10px 0;
-               }
-               .price {
-                  
-              width: 73px;
-              height: 24px;
-              
-              font-family: 'Montserrat';
-              font-style: normal;
-              font-weight: 400;
-              font-size: 20px;
-              line-height: 24px;
-              
-              color: #000000;
-              
-              
-              /* Inside auto layout */
-              
-              flex: none;
-              order: 0;
-              flex-grow: 0;
-               }
-               .price2 {
-                  
-               height: 24px;
-               display: inline-block;
-               transform: translate(3em, 0em);
-              font-family: 'Montserrat';
-              font-style: normal;
-              font-weight: 400;
-              font-size: 20px;
-              line-height: 24px;
-              text-decoration-line: line-through;
-              
-              color: #000000;
-              
-              
-              /* Inside auto layout */
-              
-              flex: none;
-              order: 1;
-              flex-grow: 0;
-              
-               }
-               .button {
-                  display: flex;
-                  flex-direction: row;
-                  align-items: flex-start;
-                  padding: 4px 40px;
-                  gap: 20px;
-                  
-                  width: 60px;
-                  height: 20px;
-                  
-                  background: #F8CFD2;
-                  border-radius: 30px;
-                  
-                  /* Inside auto layout */
-                  
-                  flex: none;
-                  order: 1;
-                  flex-grow: 0;
-               }
-               .product-item:hover .button {
-                  background: #F8CFD2;
-               }
-                  /* Кнопка показать еще */
-                .button1
-                {
-                  width: 109px;
-                  height: 22px;
-                  
-                  font-family: 'Open Sans';
-                  font-style: normal;
-                  font-weight: 400;
-                  font-size: 16px;
-                  line-height: 22px;
-                  /* identical to box height */
-                  flex: none;
-                  order: 0;
-                 flex-grow: 0;
-                  
-                  color: #40311C;
-                  display: inline-block;
-                   transform: translate(28.2em, -224em);
-                }
-                    /* Отзывы */
-                    
-.reviews1
-{
-    text-align: center;
-    width: 307px;
-    height: 32px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    
-    color: #40311C;
-    flex: none;
-order: 0;
-flex-grow: 0;
-margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-    transform: translate(19.5em, -134em);
+   display: inline-block;
+   transform: translate(3em, 5em);
 
 }
-.fon1
-{
+
+.product1:hover {
+   border-bottom: 2px solid #7e5b5b;
+}
+
+.product1 img {
+   display: block;
+   width: 100%;
+}
+
+.product-list {
+   background: #fafafa;
+   padding: 15px 0;
+}
+
+.product-list h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+
+.price {
+
+   width: 73px;
+   height: 24px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+.price2 {
+
+   height: 24px;
+   display: inline-block;
+   transform: translate(3em, 0em);
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   text-decoration-line: line-through;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+
+}
+
+.button {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 4px 40px;
+   gap: 20px;
+
+   width: 60px;
+   height: 20px;
+
+   background: #F8CFD2;
+   border-radius: 30px;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+
+.product-item:hover .button {
+   background: #F8CFD2;
+}
+
+/* Мягкий клубничный шоколад */
+.product2 {
+   box-sizing: border-box;
+}
+
+.product2 {
+   width: 208px;
+   height: 208px;
+   margin: 0 auto;
+   border-bottom: 2px solid #F5F5F5;
+
+   background: #DFCFDF;
+   border-radius: 30px;
+   font-family: "Open Sans";
+   transition: .3s ease-in;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   display: inline-block;
+   transform: translate(3em, 6.5em);
+
+}
+
+.product2:hover {
+   border-bottom: 2px solid #7e5b5b;
+}
+
+.product2 img {
+   display: block;
+   width: 100%;
+}
+
+.product-list {
+   background: #fafafa;
+   padding: 15px 0;
+}
+
+.product-list h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+
+.price {
+
+   width: 73px;
+   height: 24px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+.price2 {
+
+   height: 24px;
+   display: inline-block;
+   transform: translate(3em, 0em);
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   text-decoration-line: line-through;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+
+}
+
+.button {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 4px 40px;
+   gap: 20px;
+
+   width: 60px;
+   height: 20px;
+
+   background: #F8CFD2;
+   border-radius: 30px;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+
+.product-item:hover .button {
+   background: #F8CFD2;
+}
+
+/* Клубничный покки */
+.product3 {
+   box-sizing: border-box;
+}
+
+.product3 {
+   width: 208px;
+   height: 208px;
+   margin: 0 auto;
+   border-bottom: 2px solid #F5F5F5;
+
+   background: #DFCFDF;
+   border-radius: 30px;
+   font-family: "Open Sans";
+   transition: .3s ease-in;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   display: inline-block;
+   transform: translate(3em, 7.5em);
+
+}
+
+.product3:hover {
+   border-bottom: 2px solid #7e5b5b;
+}
+
+.product3 img {
+   display: block;
+   width: 100%;
+}
+
+.product-list {
+   background: #fafafa;
+   padding: 15px 0;
+}
+
+.product-list h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+
+.price {
+
+   width: 73px;
+   height: 24px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+.price2 {
+
+   height: 24px;
+   display: inline-block;
+   transform: translate(3em, 0em);
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   text-decoration-line: line-through;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+
+}
+
+.button {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 4px 40px;
+   gap: 20px;
+
+   width: 60px;
+   height: 20px;
+
+   background: #F8CFD2;
+   border-radius: 30px;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+
+.product-item:hover .button {
+   background: #F8CFD2;
+}
+
+/* Воздушные рисовые крекеры бурборн с майонезом */
+.product4 {
+   box-sizing: border-box;
+}
+
+.product4 {
+   width: 208px;
+   height: 208px;
+   margin: 0 auto;
+   border-bottom: 2px solid #F5F5F5;
+
+   background: #DFCFDF;
+   border-radius: 30px;
+   font-family: "Open Sans";
+   transition: .3s ease-in;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   display: inline-block;
+   transform: translate(20em, -58.5em);
+
+}
+
+.product4:hover {
+   border-bottom: 2px solid #7e5b5b;
+}
+
+.product4 img {
+   display: block;
+   width: 100%;
+}
+
+.product-list {
+   background: #fafafa;
+   padding: 15px 0;
+}
+
+.product-list h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+
+.price {
+
+   width: 73px;
+   height: 24px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+.price2 {
+
+   height: 24px;
+   display: inline-block;
+   transform: translate(3em, 0em);
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   text-decoration-line: line-through;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+
+}
+
+.button {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 4px 40px;
+   gap: 20px;
+
+   width: 60px;
+   height: 20px;
+
+   background: #F8CFD2;
+   border-radius: 30px;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+
+.product-item:hover .button {
+   background: #F8CFD2;
+}
+
+/* Конфеты с дыней Юбари */
+.product5 {
+   box-sizing: border-box;
+}
+
+.product5 {
+   width: 208px;
+   height: 208px;
+   margin: 0 auto;
+   border-bottom: 2px solid #F5F5F5;
+
+   background: #DFCFDF;
+   border-radius: 30px;
+   font-family: "Open Sans";
+   transition: .3s ease-in;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   display: inline-block;
+   transform: translate(20em, -57em);
+
+}
+
+.product5:hover {
+   border-bottom: 2px solid #7e5b5b;
+}
+
+.product5 img {
+   display: block;
+   width: 100%;
+}
+
+.product-list {
+   background: #fafafa;
+   padding: 15px 0;
+}
+
+.product-list h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+
+.price {
+
+   width: 73px;
+   height: 24px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+.price2 {
+
+   height: 24px;
+   display: inline-block;
+   transform: translate(3em, 0em);
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   text-decoration-line: line-through;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+
+}
+
+.button {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 4px 40px;
+   gap: 20px;
+
+   width: 60px;
+   height: 20px;
+
+   background: #F8CFD2;
+   border-radius: 30px;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+
+.product-item:hover .button {
+   background: #F8CFD2;
+}
+
+/* Желе конняку YUKIGUNI */
+.product6 {
+   box-sizing: border-box;
+}
+
+.product6 {
+   width: 208px;
+   height: 208px;
+   margin: 0 auto;
+   border-bottom: 2px solid #F5F5F5;
+
+   background: #DFCFDF;
+   border-radius: 30px;
+   font-family: "Open Sans";
+   transition: .3s ease-in;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   display: inline-block;
+   transform: translate(20em, -54.5em);
+
+}
+
+.product6:hover {
+   border-bottom: 2px solid #7e5b5b;
+}
+
+.product6 img {
+   display: block;
+   width: 100%;
+}
+
+.product-list {
+   background: #fafafa;
+   padding: 15px 0;
+}
+
+.product-list h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+
+.price {
+
+   width: 73px;
+   height: 24px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+.price2 {
+
+   height: 24px;
+   display: inline-block;
+   transform: translate(3em, 0em);
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   text-decoration-line: line-through;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+
+}
+
+.button {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 4px 40px;
+   gap: 20px;
+
+   width: 60px;
+   height: 20px;
+
+   background: #F8CFD2;
+   border-radius: 30px;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+
+.product-item:hover .button {
+   background: #F8CFD2;
+}
+
+/* Леденцы из маринованной сливы*/
+.product7 {
+   box-sizing: border-box;
+}
+
+.product7 {
+   width: 208px;
+   height: 208px;
+   margin: 0 auto;
+   border-bottom: 2px solid #F5F5F5;
+
+   background: #DFCFDF;
+   border-radius: 30px;
+   font-family: "Open Sans";
+   transition: .3s ease-in;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   display: inline-block;
+   transform: translate(39em, -119.3em);
+
+}
+
+.product7:hover {
+   border-bottom: 2px solid #7e5b5b;
+}
+
+.product7 img {
+   display: block;
+   width: 100%;
+}
+
+.product-list {
+   background: #fafafa;
+   padding: 15px 0;
+}
+
+.product-list h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+
+.price {
+
+   width: 73px;
+   height: 24px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+.price2 {
+
+   height: 24px;
+   display: inline-block;
+   transform: translate(3em, 0em);
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   text-decoration-line: line-through;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+
+}
+
+.button {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 4px 40px;
+   gap: 20px;
+
+   width: 60px;
+   height: 20px;
+
+   background: #F8CFD2;
+   border-radius: 30px;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+
+.product-item:hover .button {
+   background: #F8CFD2;
+}
+
+/* Японское леденцовое ассорти */
+.product8 {
+   box-sizing: border-box;
+}
+
+.product8 {
+   width: 208px;
+   height: 208px;
+   margin: 0 auto;
+   border-bottom: 2px solid #F5F5F5;
+
+   background: #DFCFDF;
+   border-radius: 30px;
+   font-family: "Open Sans";
+   transition: .3s ease-in;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   display: inline-block;
+   transform: translate(39em, -117.8em);
+
+}
+
+.product8:hover {
+   border-bottom: 2px solid #7e5b5b;
+}
+
+.product8 img {
+   display: block;
+   width: 100%;
+}
+
+.product-list {
+   background: #fafafa;
+   padding: 15px 0;
+}
+
+.product-list h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+
+.price {
+
+   width: 73px;
+   height: 24px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+.price2 {
+
+   height: 24px;
+   display: inline-block;
+   transform: translate(3em, 0em);
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   text-decoration-line: line-through;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+
+}
+
+.button {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 4px 40px;
+   gap: 20px;
+
+   width: 60px;
+   height: 20px;
+
+   background: #F8CFD2;
+   border-radius: 30px;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+
+.product-item:hover .button {
+   background: #F8CFD2;
+}
+
+/* Шоколадный батончик */
+.product9 {
+   box-sizing: border-box;
+}
+
+.product9 {
+   width: 208px;
+   height: 208px;
+   margin: 0 auto;
+   border-bottom: 2px solid #F5F5F5;
+
+   background: #DFCFDF;
+   border-radius: 30px;
+   font-family: "Open Sans";
+   transition: .3s ease-in;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   display: inline-block;
+   transform: translate(39em, -115.4em);
+
+}
+
+.product9:hover {
+   border-bottom: 2px solid #7e5b5b;
+}
+
+.product9 img {
+   display: block;
+   width: 100%;
+}
+
+.product-list {
+   background: #fafafa;
+   padding: 15px 0;
+}
+
+.product-list h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+
+.price {
+
+   width: 73px;
+   height: 24px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+.price2 {
+
+   height: 24px;
+   display: inline-block;
+   transform: translate(3em, 0em);
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   text-decoration-line: line-through;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+
+}
+
+.button {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 4px 40px;
+   gap: 20px;
+
+   width: 60px;
+   height: 20px;
+
+   background: #F8CFD2;
+   border-radius: 30px;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+
+.product-item:hover .button {
+   background: #F8CFD2;
+}
+
+/* Дынный желе-щербет */
+.product10 {
+   box-sizing: border-box;
+}
+
+.product10 {
+   width: 208px;
+   height: 208px;
+   margin: 0 auto;
+   border-bottom: 2px solid #F5F5F5;
+
+   background: #DFCFDF;
+   border-radius: 30px;
+   font-family: "Open Sans";
+   transition: .3s ease-in;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   display: inline-block;
+   transform: translate(58em, -180.2em);
+
+}
+
+.product10:hover {
+   border-bottom: 2px solid #7e5b5b;
+}
+
+.product10 img {
+   display: block;
+   width: 100%;
+}
+
+.product-list {
+   background: #fafafa;
+   padding: 15px 0;
+}
+
+.product-list h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+
+.price {
+
+   width: 73px;
+   height: 24px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+.price2 {
+
+   height: 24px;
+   display: inline-block;
+   transform: translate(3em, 0em);
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   text-decoration-line: line-through;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+
+}
+
+.button {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 4px 40px;
+   gap: 20px;
+
+   width: 60px;
+   height: 20px;
+
+   background: #F8CFD2;
+   border-radius: 30px;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+
+.product-item:hover .button {
+   background: #F8CFD2;
+}
+
+/* Кислые жевательные конфеты */
+.product11 {
+   box-sizing: border-box;
+}
+
+.product11 {
+   width: 208px;
+   height: 208px;
+   margin: 0 auto;
+   border-bottom: 2px solid #F5F5F5;
+
+   background: #DFCFDF;
+   border-radius: 30px;
+   font-family: "Open Sans";
+   transition: .3s ease-in;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   display: inline-block;
+   transform: translate(58em, -178.7em);
+
+}
+
+.product11:hover {
+   border-bottom: 2px solid #7e5b5b;
+}
+
+.product11 img {
+   display: block;
+   width: 100%;
+}
+
+.product-list {
+   background: #fafafa;
+   padding: 15px 0;
+}
+
+.product-list h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+
+.price {
+
+   width: 73px;
+   height: 24px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+.price2 {
+
+   height: 24px;
+   display: inline-block;
+   transform: translate(3em, 0em);
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   text-decoration-line: line-through;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+
+}
+
+.button {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 4px 40px;
+   gap: 20px;
+
+   width: 60px;
+   height: 20px;
+
+   background: #F8CFD2;
+   border-radius: 30px;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+
+.product-item:hover .button {
+   background: #F8CFD2;
+}
+
+/* Тайаки */
+.product12 {
+   box-sizing: border-box;
+}
+
+.product12 {
+   width: 208px;
+   height: 208px;
+   margin: 0 auto;
+   border-bottom: 2px solid #F5F5F5;
+
+   background: #DFCFDF;
+   border-radius: 30px;
+   font-family: "Open Sans";
+   transition: .3s ease-in;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   display: inline-block;
+   transform: translate(58em, -175em);
+
+}
+
+.product12:hover {
+   border-bottom: 2px solid #7e5b5b;
+}
+
+.product12 img {
+   display: block;
+   width: 100%;
+}
+
+.product-list {
+   background: #fafafa;
+   padding: 15px 0;
+}
+
+.product-list h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+
+.price {
+
+   width: 73px;
+   height: 24px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+.price2 {
+
+   height: 24px;
+   display: inline-block;
+   transform: translate(3em, 0em);
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   text-decoration-line: line-through;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+
+}
+
+.button {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 4px 40px;
+   gap: 20px;
+
+   width: 60px;
+   height: 20px;
+
+   background: #F8CFD2;
+   border-radius: 30px;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+
+.product-item:hover .button {
+   background: #F8CFD2;
+}
+
+/* Манговое желе */
+.product13 {
+   box-sizing: border-box;
+}
+
+.product13 {
+   width: 208px;
+   height: 208px;
+   margin: 0 auto;
+   border-bottom: 2px solid #F5F5F5;
+
+   background: #DFCFDF;
+   border-radius: 30px;
+   font-family: "Open Sans";
+   transition: .3s ease-in;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   display: inline-block;
+   transform: translate(75em, -234.4em);
+
+}
+
+.product13:hover {
+   border-bottom: 2px solid #7e5b5b;
+}
+
+.product13 img {
+   display: block;
+   width: 100%;
+}
+
+.product-list {
+   background: #fafafa;
+   padding: 15px 0;
+}
+
+.product-list h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+
+.price {
+
+   width: 73px;
+   height: 24px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+.price2 {
+
+   height: 24px;
+   display: inline-block;
+   transform: translate(3em, 0em);
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   text-decoration-line: line-through;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+
+}
+
+.button {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 4px 40px;
+   gap: 20px;
+
+   width: 60px;
+   height: 20px;
+
+   background: #F8CFD2;
+   border-radius: 30px;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+
+.product-item:hover .button {
+   background: #F8CFD2;
+}
+
+/* Рисовые снеки */
+.product14 {
+   box-sizing: border-box;
+}
+
+.product14 {
+   width: 208px;
+   height: 208px;
+   margin: 0 auto;
+   border-bottom: 2px solid #F5F5F5;
+
+   background: #DFCFDF;
+   border-radius: 30px;
+   font-family: "Open Sans";
+   transition: .3s ease-in;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   display: inline-block;
+   transform: translate(75em, -231.5em);
+
+}
+
+.product14:hover {
+   border-bottom: 2px solid #7e5b5b;
+}
+
+.product14 img {
+   display: block;
+   width: 100%;
+}
+
+.product-list {
+   background: #fafafa;
+   padding: 15px 0;
+}
+
+.product-list h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+
+.price {
+
+   width: 73px;
+   height: 24px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+.price2 {
+
+   height: 24px;
+   display: inline-block;
+   transform: translate(3em, 0em);
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   text-decoration-line: line-through;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+
+}
+
+.button {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 4px 40px;
+   gap: 20px;
+
+   width: 60px;
+   height: 20px;
+
+   background: #F8CFD2;
+   border-radius: 30px;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+
+.product-item:hover .button {
+   background: #F8CFD2;
+}
+
+/* Съедобный бокс для детей */
+.product15 {
+   box-sizing: border-box;
+}
+
+.product15 {
+   width: 208px;
+   height: 208px;
+   margin: 0 auto;
+   border-bottom: 2px solid #F5F5F5;
+
+   background: #DFCFDF;
+   border-radius: 30px;
+   font-family: "Open Sans";
+   transition: .3s ease-in;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   display: inline-block;
+   transform: translate(75em, -229em);
+
+}
+
+.product15:hover {
+   border-bottom: 2px solid #7e5b5b;
+}
+
+.product15 img {
+   display: block;
+   width: 100%;
+}
+
+.product-list {
+   background: #ffffff;
+   padding: 15px 0;
+}
+
+.product-list h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+
+.price {
+
+   width: 73px;
+   height: 24px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+.price2 {
+
+   height: 24px;
+   display: inline-block;
+   transform: translate(3em, 0em);
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   text-decoration-line: line-through;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+
+}
+
+.button {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 4px 40px;
+   gap: 20px;
+
+   width: 60px;
+   height: 20px;
+
+   background: #F8CFD2;
+   border-radius: 30px;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+
+.product-item:hover .button {
+   background: #F8CFD2;
+}
+
+/* Кнопка показать еще */
+.button1 {
+   width: 109px;
+   height: 22px;
+
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   /* identical to box height */
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+
+   color: #40311C;
+   display: inline-block;
+   transform: translate(28.2em, -224em);
+}
+
+/* Отзывы */
+
+.reviews1 {
+   text-align: center;
+   width: 307px;
+   height: 32px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 29px;
+
+   color: #40311C;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   margin-left: auto;
+   margin-right: auto;
+   display: inline-block;
+   transform: translate(19.5em, -134em);
+
+}
+
+.fon1 {
    position: absolute;
    width: 500px;
    height: 509.44px;
    left: 2px;
    top: 2007px;
-   
+
    background: url(image.png);
-   
+
    background: #E5DBE7;
-   
-}    
-.fon2
-{
+
+}
+
+.fon2 {
    position: absolute;
    width: 500px;
    height: 509.44px;
    left: 469px;
    top: 2007px;
-   
+
    background: url(image.png);
-   
+
    background: #E5DBE7;
-   
-}    
-.fon3
-{
+
+}
+
+.fon3 {
    position: absolute;
    width: 500px;
    height: 509.44px;
    left: 941px;
    top: 2007px;
-   
+
    background: url(image.png);
-   
+
    background: #E5DBE7;
-   
-} 
+
+}
 
 /*Закругление после популярных сладостей слева*/
 .polygon4 {
@@ -1716,8 +1848,7 @@ margin-left: auto;
    top: 2001px;
 }
 
-.fon4
-{
+.fon4 {
    position: absolute;
    width: 500px;
    height: 509.44px;
@@ -1725,10 +1856,9 @@ margin-left: auto;
    top: 2500.61px;
    background: url(image.png);
    background: #E5DBE7;
-} 
+}
 
-.fon5
-{
+.fon5 {
    position: absolute;
    width: 500px;
    height: 509.44px;
@@ -1736,10 +1866,9 @@ margin-left: auto;
    top: 2501.73px;
    background: url(image.png);
    background: #E5DBE7;
-} 
+}
 
-.fon6
-{
+.fon6 {
    position: absolute;
    width: 500px;
    height: 509.44px;
@@ -1747,10 +1876,9 @@ margin-left: auto;
    top: 2503.95px;
    background: url(image.png);
    background: #E5DBE7;
-} 
+}
 
-.fon7
-{
+.fon7 {
    position: absolute;
    width: 500px;
    height: 509.44px;
@@ -1758,9 +1886,9 @@ margin-left: auto;
    top: 2820.8px;
    background: url(image.png);
    background: #E5DBE7;
-} 
-.fon8
-{
+}
+
+.fon8 {
    position: absolute;
    width: 500px;
    height: 509.44px;
@@ -1768,10 +1896,9 @@ margin-left: auto;
    top: 2820.8px;
    background: url(image.png);
    background: #E5DBE7;
-} 
+}
 
-.fon9
-{
+.fon9 {
    position: absolute;
    width: 500px;
    height: 509.44px;
@@ -1779,16 +1906,16 @@ margin-left: auto;
    top: 2820.8px;
    background: url(image.png);
    background: #E5DBE7;
-} 
+}
 
 /*Контейнер отзывы*/
-#container.reviews{
+#container.reviews {
    font-family: 'Montserrat', sans-serif;
    margin: 0;
    padding: 0;
 }
 
-.reviews{
+.reviews {
    position: absolute;
    left: 660px;
    top: 2085px;
@@ -1817,15 +1944,17 @@ margin-left: auto;
    left: 3em;
    top: 2200px;
    filter: drop-shadow(0 0 10px #825884);
-   transition: 1s; /* Время эффекта */
+   transition: 1s;
+   /* Время эффекта */
 }
 
 .circle1:hover {
-   transform: scale(1.04); /* Увеличиваем масштаб */
+   transform: scale(1.04);
+   /* Увеличиваем масштаб */
 }
 
 /*Изображение Артема*/
-.artem{
+.artem {
    display: inline-block;
    position: relative;
    top: 5em;
@@ -1853,24 +1982,28 @@ margin-left: auto;
    top: -3em;
    left: 15.5em;
 }
+
 .star-artem-2 {
    display: inline-block;
    position: relative;
    top: -5.13em;
    left: 17em;
 }
+
 .star-artem-3 {
    display: inline-block;
    position: relative;
    top: -7.23em;
    left: 18.5em;
 }
+
 .star-artem-4 {
    display: inline-block;
    position: relative;
    top: -9.33em;
    left: 20em;
 }
+
 .star-artem-5 {
    display: inline-block;
    position: relative;
@@ -1879,7 +2012,7 @@ margin-left: auto;
 }
 
 /*Сам отзыв Артема*/
-.text-artem-reviews{
+.text-artem-reviews {
    line-height: 1.5;
    font-style: normal;
    font-weight: 400;
@@ -1910,11 +2043,13 @@ margin-left: auto;
    left: 37em;
    top: 2200px;
    filter: drop-shadow(0 0 10px #825884);
-   transition: 1s; /* Время эффекта */
+   transition: 1s;
+   /* Время эффекта */
 }
 
 .circle2:hover {
-   transform: scale(1.04); /* Увеличиваем масштаб */
+   transform: scale(1.04);
+   /* Увеличиваем масштаб */
 }
 
 /*Изображение Оксаны*/
@@ -1946,24 +2081,28 @@ margin-left: auto;
    top: -3em;
    left: 15.5em;
 }
+
 .star-oksana-2 {
    display: inline-block;
    position: relative;
    top: -5.13em;
    left: 17em;
 }
+
 .star-oksana-3 {
    display: inline-block;
    position: relative;
    top: -7.23em;
    left: 18.5em;
 }
+
 .star-oksana-4 {
    display: inline-block;
    position: relative;
    top: -9.33em;
    left: 20em;
 }
+
 .star-oksana-5 {
    display: inline-block;
    position: relative;
@@ -1972,7 +2111,7 @@ margin-left: auto;
 }
 
 /*Сам отзыв Оксаны*/
-.text-oksana-reviews{
+.text-oksana-reviews {
    line-height: 1.5;
    font-style: normal;
    font-weight: 400;
@@ -2002,12 +2141,15 @@ margin-left: auto;
    position: absolute;
    left: 71em;
    top: 2200px;
-   transition: 1s; /* Время эффекта */
-   filter: drop-shadow(0 0 10px #825884); /*свечение*/
+   transition: 1s;
+   /* Время эффекта */
+   filter: drop-shadow(0 0 10px #825884);
+   /*свечение*/
 }
 
 .circle3:hover {
-   transform: scale(1.04); /* Увеличиваем масштаб */
+   transform: scale(1.04);
+   /* Увеличиваем масштаб */
 }
 
 /*Изображение Ксении*/
@@ -2039,24 +2181,28 @@ margin-left: auto;
    top: -3em;
    left: 15.5em;
 }
+
 .star-kseniya-2 {
    display: inline-block;
    position: relative;
    top: -5.13em;
    left: 17em;
 }
+
 .star-kseniya-3 {
    display: inline-block;
    position: relative;
    top: -7.23em;
    left: 18.5em;
 }
+
 .star-kseniya-4 {
    display: inline-block;
    position: relative;
    top: -9.33em;
    left: 20em;
 }
+
 .star-kseniya-5 {
    display: inline-block;
    position: relative;
@@ -2065,7 +2211,7 @@ margin-left: auto;
 }
 
 /*Сам отзыв Ксении*/
-.text-kseniya-reviews{
+.text-kseniya-reviews {
    line-height: 1.5;
    font-style: normal;
    font-weight: 400;
@@ -2079,4 +2225,3 @@ margin-left: auto;
    position: relative;
    top: -6em;
 }
-
