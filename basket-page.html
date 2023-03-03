@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="basket.css">
-    <script src="/basket-script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    <script src="/basket-script.js"></script>
 </head>
 <body>
    <header class="header center">
@@ -32,7 +31,7 @@
                   <button type="submit" class="header-form-button"><img src="Изображения/search.svg" class="search" alt="fjfj"></button>
                </form>
                <div class="header-container-links">
-                  <a href="#"><img src="Изображения/shop_cart.svg" class="shop_cart" alt="shopping cart"></a>
+                  <a href="basket-page.html"><img src="Изображения/shop_cart.svg" class="shop_cart" alt="shopping cart"></a>
                   <a href="#"><img src="Изображения/customer.svg" class="customer" alt="customer"></a>
                   <div class="header-container-links-circle">2</div>
                </div>
@@ -113,6 +112,26 @@
                </li>
             </ul>
          </div>
+         <script>
+            document.querySelectorAll('.basket-item-numberOf .basket-item-min').forEach(function (element) {
+               element.addEventListener('click', function (event) {
+                  event.preventDefault();
+                  let input = this.parentElement.querySelector('.basket-item-productCount');
+                  let count = parseInt(input.value) - 1;
+                  count = count < 1 ? 1 : count;
+                  input.value = parseInt(count);
+               });
+            });
+            document.querySelectorAll('.basket-item-numberOf .basket-item-plus').forEach(function (element) {
+               element.addEventListener('click', function (event) {
+                  event.preventDefault();
+                  let input = this.parentElement.querySelector('.basket-item-productCount');
+                  let count = parseInt(input.value) + 1;
+                  count = count > parseInt(input.dataset.maxCount) ? parseInt(input.dataset.maxCount) : count;
+                  input.value = parseInt(count);
+               });
+            });
+         </script>
          <div class="basket-order">
             <div class="basket-order-box">
                <h3 class="basket-order-title">Ваш заказ</h3>
@@ -153,7 +172,7 @@
                   <span class="recomed-price-before">Цена &#x20bd</span>
                </div>
                <div class="recomend-button-wrap">
-                  <button class="recomend-button">Купить</button>
+                  <button class="recomend-button" onclick="addToBasket()">Купить</button>
                </div>
             </div>
             <!--2 item-->
@@ -167,7 +186,7 @@
                   <span class="recomed-price-before">Цена &#x20bd</span>
                </div>
                <div class="recomend-button-wrap">
-                  <button class="recomend-button">Купить</button>
+                  <button class="recomend-button" onclick="addToBasket()">Купить</button>
                </div>
             </div>
             <!--3 item-->
@@ -181,7 +200,7 @@
                   <span class="recomed-price-before">Цена &#x20bd</span>
                </div>
                <div class="recomend-button-wrap">
-                  <button class="recomend-button">Купить</button>
+                  <button class="recomend-button" onclick="addToBasket()">Купить</button>
                </div>
             </div>
             <!--4 item-->
@@ -195,7 +214,7 @@
                   <span class="recomed-price-before">Цена &#x20bd</span>
                </div>
                <div class="recomend-button-wrap">
-                  <button class="recomend-button">Купить</button>
+                  <button class="recomend-button" onclick="addToBasket()">Купить</button>
                </div>
             </div>
             <!--5 item-->
@@ -209,7 +228,7 @@
                   <span class="recomed-price-before">Цена &#x20bd</span>
                </div>
                <div class="recomend-button-wrap">
-                  <button class="recomend-button">Купить</button>
+                  <button class="recomend-button" onclick="addToBasket()">Купить</button>
                </div>
             </div>
             <!--6 item-->
@@ -223,7 +242,7 @@
                   <span class="recomed-price-before">Цена &#x20bd</span>
                </div>
                <div class="recomend-button-wrap">
-                  <button class="recomend-button">Купить</button>
+                  <button class="recomend-button" onclick="addToBasket()">Купить</button>
                </div>
             </div>
             <!--7 item-->
@@ -237,7 +256,7 @@
                   <span class="recomed-price-before">Цена &#x20bd</span>
                </div>
                <div class="recomend-button-wrap">
-                  <button class="recomend-button">Купить</button>
+                  <button class="recomend-button" onclick="addToBasket()">Купить</button>
                </div>
             </div>
          </div>
@@ -245,20 +264,20 @@
         <button id="recomend-leftButton"><img src="Изображения/arrow-left.svg" alt="" class="recomend-leftButton-img"></button>
         <button id="recomend-rightButton"><img src="Изображения/arrow-right.svg" alt="" class="recomend-rightButton-img"></button>
         </div>
-         <script>
-         $('#recomend-rightButton').click(function() {
-            event.preventDefault();
-            $('#recomend-wrap').animate({
+    <script>
+       $('#recomend-rightButton').click(function() {
+          event.preventDefault();
+             $('#recomend-wrap').animate({
                scrollLeft: "+=200px"
-            }, "slow");
+               }, "slow");
          });
-         $('#recomend-leftButton').click(function() {
-            event.preventDefault();
-            $('#recomend-wrap').animate({
-               scrollLeft: "-=200px"
-            }, "slow");
+       $('#recomend-leftButton').click(function() {
+          event.preventDefault();
+             $('#recomend-wrap').animate({
+              scrollLeft: "-=200px"
+              }, "slow");
          });
-         </script>
+    </script>
       </section>
    </main>
    <footer class="footer center">
@@ -270,7 +289,7 @@
             <h3 class="footer-nav-title">НАВИГАЦИЯ</h3>
             <ul class="footer-nav-list">
                <il class="footer-nav-item"><a href="#" class="footer-nav-item-link">О нас</a></il>
-               <il class="footer-nav-item"><a href="#" class="footer-nav-item-link">Главная страница</a></il>
+               <il class="footer-nav-item"><a href="main.html" class="footer-nav-item-link">Главная страница</a></il>
                <il class="footer-nav-item"><a href="#" class="footer-nav-item-link">Каталог товаров</a></il>
                <il class="footer-nav-item"><a href="#" class="footer-nav-item-link">Акции</a></il>
                <il class="footer-nav-item"><a href="#" class="footer-nav-item-link">Доставка</a></il>
