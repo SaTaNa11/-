@@ -1916,9 +1916,10 @@
    justify-content: space-between;
    /*работает с display: flex; выравнивает объекты между собой*/
    background-color: #E5DBE7;
-   width: 1440px;
+   width: 1538px;
    position: absolute;
    top: 3329.8px;
+   left: -6em;
 }
 
 .reviews {
@@ -1947,7 +1948,7 @@
    padding: 28px;
    gap: 12px;
    position: absolute;
-   left: 3em;
+   left: 8em;
    top: 2200px;
    filter: drop-shadow(0 0 10px #825884);
    transition: 1s;
@@ -2046,7 +2047,7 @@
    padding: 28px;
    gap: 12px;
    position: absolute;
-   left: 37em;
+   left: 50em;
    top: 2200px;
    filter: drop-shadow(0 0 10px #825884);
    transition: 1s;
@@ -2131,6 +2132,7 @@
    position: relative;
    top: -6em;
 }
+
 
 /*Квадрат в отзывах 3*/
 .circle3 {
@@ -2235,14 +2237,14 @@
 .questions {
    font-style: normal;
    font-weight: 700;
-   font-size: 24px;
+   font-size: 27px;
    color: #3B183C;
    /* Inside auto layout */
    flex: none;
    order: 0;
    flex-grow: 0;
    text-align: center;
-   transform: translate(0em, -117em);
+   transform: translate(0em, -101em);
 }
 
 .container-questions {
@@ -2250,7 +2252,8 @@
    text-align: center;
    margin: 0;
    padding: 0;
-   transform: translate(20em, -195em);
+   position: absolute;
+   transform: translate(21em, -165em);
 }
 
 /*FAQ section, where the accordion is kept, including section specific css*/
@@ -2350,10 +2353,10 @@ flex: none;
 order: 0;
 flex-grow: 0;
 text-align: center;
-transform: translate(0em, -230em);
+transform: translate(0em, -130em);
 }
 
 .to-return>a {
    text-decoration: none;
-   color: #3B183C
+   color: #3B183C;
 }

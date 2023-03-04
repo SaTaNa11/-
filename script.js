@@ -25,3 +25,5 @@ for (const question of questions) {
 
   question.addEventListener('click', openAnswer) 
 }
+
+
